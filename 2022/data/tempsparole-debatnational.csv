@@ -1,0 +1,638 @@
+candidat,duree,periode,chaine,temps_parole,type_chaine
+DEBOUT LA FRANCE,00:00:06,10 au 28 mai 2021,France 2,6,généralistes
+LA REPUBLIQUE EN MARCHE,00:00:10,10 au 28 mai 2021,France 2,10,généralistes
+LES REPUBLICAINS,00:00:35,10 au 28 mai 2021,France 2,35,généralistes
+PARTI SOCIALISTE,00:00:27,10 au 28 mai 2021,France 2,27,généralistes
+RASSEMBLEMENT NATIONAL,00:00:13,10 au 28 mai 2021,France 2,13,généralistes
+DEBOUT LA FRANCE,00:00:06,10 mai au 4 juin,France 2,6,généralistes
+LA FRANCE INSOUMISE,00:00:09,10 mai au 4 juin,France 2,9,généralistes
+LA REPUBLIQUE EN MARCHE,00:00:10,10 mai au 4 juin,France 2,10,généralistes
+LES REPUBLICAINS,00:00:35,10 mai au 4 juin,France 2,35,généralistes
+MODEM,00:00:20,10 mai au 4 juin,France 2,20,généralistes
+PARTI SOCIALISTE,00:00:27,10 mai au 4 juin,France 2,27,généralistes
+RASSEMBLEMENT NATIONAL,00:00:29,10 mai au 4 juin,France 2,29,généralistes
+DEBOUT LA FRANCE,00:00:06,10 mai au 11 juin,France 2,6,généralistes
+LA FRANCE INSOUMISE,00:00:09,10 mai au 11 juin,France 2,9,généralistes
+LA REPUBLIQUE EN MARCHE,00:00:33,10 mai au 11 juin,France 2,33,généralistes
+LES REPUBLICAINS,00:00:35,10 mai au 11 juin,France 2,35,généralistes
+MODEM,00:00:20,10 mai au 11 juin,France 2,20,généralistes
+PARTI SOCIALISTE,00:00:27,10 mai au 11 juin,France 2,27,généralistes
+RASSEMBLEMENT NATIONAL,00:00:29,10 mai au 11 juin,France 2,29,généralistes
+DEBOUT LA FRANCE,00:00:06,10 mai au 18 juin,France 2,6,généralistes
+EUROPE ECOLOGIE LES VERTS,00:00:17,10 mai au 18 juin,France 2,17,généralistes
+GENERATION-S,00:00:08,10 mai au 18 juin,France 2,8,généralistes
+LA FRANCE INSOUMISE,00:00:25,10 mai au 18 juin,France 2,25,généralistes
+LA REPUBLIQUE EN MARCHE,00:00:47,10 mai au 18 juin,France 2,47,généralistes
+LES REPUBLICAINS,00:00:35,10 mai au 18 juin,France 2,35,généralistes
+LUTTE OUVRIERE,00:00:11,10 mai au 18 juin,France 2,11,généralistes
+MODEM,00:00:20,10 mai au 18 juin,France 2,20,généralistes
+PARTI COMMUNISTE FRANCAIS,00:00:13,10 mai au 18 juin,France 2,13,généralistes
+PARTI SOCIALISTE,00:00:27,10 mai au 18 juin,France 2,27,généralistes
+RASSEMBLEMENT NATIONAL,00:00:29,10 mai au 18 juin,France 2,29,généralistes
+UDI,00:00:12,10 mai au 18 juin,France 2,12,généralistes
+EUROPE ECOLOGIE LES VERTS,00:03:23,10 au 21 mai 2021,France 3,203,généralistes
+LA REPUBLIQUE EN MARCHE,00:04:16,10 au 21 mai 2021,France 3,256,généralistes
+DEBOUT LA FRANCE,00:02:18,10 au 28 mai 2021,France 3,138,généralistes
+EUROPE ECOLOGIE LES VERTS,00:03:23,10 au 28 mai 2021,France 3,203,généralistes
+LA REPUBLIQUE EN MARCHE,00:04:16,10 au 28 mai 2021,France 3,256,généralistes
+PARTI COMMUNISTE FRANCAIS,00:01:06,10 au 28 mai 2021,France 3,66,généralistes
+DEBOUT LA FRANCE,00:02:18,10 mai au 4 juin,France 3,138,généralistes
+EUROPE ECOLOGIE LES VERTS,00:03:23,10 mai au 4 juin,France 3,203,généralistes
+LA REPUBLIQUE EN MARCHE,00:04:16,10 mai au 4 juin,France 3,256,généralistes
+PARTI COMMUNISTE FRANCAIS,00:01:06,10 mai au 4 juin,France 3,66,généralistes
+PARTI SOCIALISTE,00:02:05,10 mai au 4 juin,France 3,125,généralistes
+UDI,00:01:57,10 mai au 4 juin,France 3,117,généralistes
+DEBOUT LA FRANCE,00:02:18,10 mai au 11 juin,France 3,138,généralistes
+EUROPE ECOLOGIE LES VERTS,00:03:23,10 mai au 11 juin,France 3,203,généralistes
+LA FRANCE INSOUMISE,00:02:22,10 mai au 11 juin,France 3,142,généralistes
+LA REPUBLIQUE EN MARCHE,00:04:16,10 mai au 11 juin,France 3,256,généralistes
+MODEM,00:01:50,10 mai au 11 juin,France 3,110,généralistes
+PARTI COMMUNISTE FRANCAIS,00:01:06,10 mai au 11 juin,France 3,66,généralistes
+PARTI SOCIALISTE,00:02:05,10 mai au 11 juin,France 3,125,généralistes
+UDI,00:01:57,10 mai au 11 juin,France 3,117,généralistes
+DEBOUT LA FRANCE,00:02:18,10 mai au 18 juin,France 3,138,généralistes
+EUROPE ECOLOGIE LES VERTS,00:03:23,10 mai au 18 juin,France 3,203,généralistes
+LES REPUBLICAINS,00:04:34,10 mai au 18 juin,France 3,274,généralistes
+LA FRANCE INSOUMISE,00:02:22,10 mai au 18 juin,France 3,142,généralistes
+LA REPUBLIQUE EN MARCHE,00:04:16,10 mai au 18 juin,France 3,256,généralistes
+MODEM,00:01:50,10 mai au 18 juin,France 3,110,généralistes
+PARTI COMMUNISTE FRANCAIS,00:01:06,10 mai au 18 juin,France 3,66,généralistes
+PARTI SOCIALISTE,00:02:05,10 mai au 18 juin,France 3,125,généralistes
+RASSEMBLEMENT NATIONAL,00:04:32,10 mai au 18 juin,France 3,272,généralistes
+UDI,00:01:57,10 mai au 18 juin,France 3,117,généralistes
+DEBOUT LA FRANCE,00:00:15,10 mai au 18 juin,Canal+,15,généralistes
+EUROPE ECOLOGIE LES VERTS,00:01:00,10 mai au 18 juin,Canal+,60,généralistes
+LES REPUBLICAINS,00:01:10,10 mai au 18 juin,Canal+,70,généralistes
+LA FRANCE INSOUMISE,00:00:56,10 mai au 18 juin,Canal+,56,généralistes
+LA REPUBLIQUE EN MARCHE,00:01:25,10 mai au 18 juin,Canal+,85,généralistes
+MODEM,00:00:33,10 mai au 18 juin,Canal+,33,généralistes
+PARTI COMMUNISTE FRANCAIS,00:00:30,10 mai au 18 juin,Canal+,30,généralistes
+PARTI SOCIALISTE,00:01:00,10 mai au 18 juin,Canal+,60,généralistes
+RASSEMBLEMENT NATIONAL,00:01:00,10 mai au 18 juin,Canal+,60,généralistes
+UDI,00:00:29,10 mai au 18 juin,Canal+,29,généralistes
+LES REPUBLICAINS,00:00:06,10 au 21 mai 2021,C8,6,généralistes
+LA REPUBLIQUE EN MARCHE,00:22:38,10 au 21 mai 2021,C8,1358,généralistes
+LES REPUBLICAINS,00:00:06,10 au 28 mai 2021,C8,6,généralistes
+LA REPUBLIQUE EN MARCHE,00:22:38,10 au 28 mai 2021,C8,1358,généralistes
+LES REPUBLICAINS,00:00:06,10 mai au 4 juin,C8,6,généralistes
+LA REPUBLIQUE EN MARCHE,00:27:07,10 mai au 4 juin,C8,1627,généralistes
+DEBOUT LA FRANCE,00:02:48,10 mai au 11 juin,C8,168,généralistes
+EUROPE ECOLOGIE LES VERTS,00:06:16,10 mai au 11 juin,C8,376,généralistes
+LES REPUBLICAINS,00:10:46,10 mai au 11 juin,C8,646,généralistes
+LA FRANCE INSOUMISE,00:03:08,10 mai au 11 juin,C8,188,généralistes
+LA REPUBLIQUE EN MARCHE,00:27:07,10 mai au 11 juin,C8,1627,généralistes
+PARTI COMMUNISTE FRANCAIS,00:03:04,10 mai au 11 juin,C8,184,généralistes
+PARTI SOCIALISTE,00:08:08,10 mai au 11 juin,C8,488,généralistes
+RASSEMBLEMENT NATIONAL,00:08:40,10 mai au 11 juin,C8,520,généralistes
+DEBOUT LA FRANCE,00:06:18,10 mai au 18 juin,C8,378,généralistes
+EUROPE ECOLOGIE LES VERTS,00:14:06,10 mai au 18 juin,C8,846,généralistes
+LES REPUBLICAINS,00:24:06,10 mai au 18 juin,C8,1446,généralistes
+LA FRANCE INSOUMISE,00:06:38,10 mai au 18 juin,C8,398,généralistes
+LA REPUBLIQUE EN MARCHE,00:27:07,10 mai au 18 juin,C8,1627,généralistes
+PARTI COMMUNISTE FRANCAIS,00:06:54,10 mai au 18 juin,C8,414,généralistes
+PARTI SOCIALISTE,00:18:18,10 mai au 18 juin,C8,1098,généralistes
+RASSEMBLEMENT NATIONAL,00:19:20,10 mai au 18 juin,C8,1160,généralistes
+LA REPUBLIQUE EN MARCHE,00:00:18,10 au 21 mai 2021,TMC,18,généralistes
+LES REPUBLICAINS,00:00:38,10 au 21 mai 2021,TMC,38,généralistes
+RASSEMBLEMENT NATIONAL,00:00:22,10 au 21 mai 2021,TMC,22,généralistes
+LA REPUBLIQUE EN MARCHE,00:00:18,10 au 28 mai 2021,TMC,18,généralistes
+LES REPUBLICAINS,00:00:38,10 au 28 mai 2021,TMC,38,généralistes
+RASSEMBLEMENT NATIONAL,00:00:22,10 au 28 mai 2021,TMC,22,généralistes
+LA REPUBLIQUE EN MARCHE,00:00:18,10 mai au 4 juin,TMC,18,généralistes
+LES REPUBLICAINS,00:00:38,10 mai au 4 juin,TMC,38,généralistes
+RASSEMBLEMENT NATIONAL,00:00:22,10 mai au 4 juin,TMC,22,généralistes
+LA REPUBLIQUE EN MARCHE,00:00:18,10 mai au 11 juin,TMC,18,généralistes
+LES REPUBLICAINS,00:00:38,10 mai au 11 juin,TMC,38,généralistes
+RASSEMBLEMENT NATIONAL,00:00:22,10 mai au 11 juin,TMC,22,généralistes
+LA REPUBLIQUE EN MARCHE,00:00:18,10 mai au 18 juin,TMC,18,généralistes
+LES REPUBLICAINS,00:00:38,10 mai au 18 juin,TMC,38,généralistes
+RASSEMBLEMENT NATIONAL,00:00:22,10 mai au 18 juin,TMC,22,généralistes
+LA REPUBLIQUE EN MARCHE,00:02:09,10 au 21 mai 2021,RMC Découverte,129,généralistes
+LA REPUBLIQUE EN MARCHE,00:02:09,10 au 28 mai 2021,RMC Découverte,129,généralistes
+LA REPUBLIQUE EN MARCHE,00:02:09,10 mai au 4 juin,RMC Découverte,129,généralistes
+LA REPUBLIQUE EN MARCHE,00:02:09,10 mai au 11 juin,RMC Découverte,129,généralistes
+EUROPE ECOLOGIE LES VERTS,00:00:11,10 mai au 18 juin,RMC Découverte,11,généralistes
+LA FRANCE INSOUMISE,00:00:29,10 mai au 18 juin,RMC Découverte,29,généralistes
+LA REPUBLIQUE EN MARCHE,00:02:09,10 mai au 18 juin,RMC Découverte,129,généralistes
+LES REPUBLICAINS,00:00:56,10 mai au 18 juin,RMC Découverte,56,généralistes
+LUTTE OUVRIERE,00:00:34,10 mai au 18 juin,RMC Découverte,34,généralistes
+RASSEMBLEMENT NATIONAL,00:01:31,10 mai au 18 juin,RMC Découverte,91,généralistes
+EUROPE ECOLOGIE LES VERTS,00:01:24,10 au 21 mai 2021,RMC Story,84,généralistes
+LES REPUBLICAINS,00:04:03,10 au 21 mai 2021,RMC Story,243,généralistes
+EUROPE ECOLOGIE LES VERTS,00:01:24,10 au 28 mai 2021,RMC Story,84,généralistes
+LES REPUBLICAINS,00:04:03,10 au 28 mai 2021,RMC Story,243,généralistes
+EUROPE ECOLOGIE LES VERTS,00:01:24,10 mai au 4 juin,RMC Story,84,généralistes
+LES REPUBLICAINS,00:04:03,10 mai au 4 juin,RMC Story,243,généralistes
+EUROPE ECOLOGIE LES VERTS,00:01:24,10 mai au 11 juin,RMC Story,84,généralistes
+LA REPUBLIQUE EN MARCHE,00:02:29,10 mai au 11 juin,RMC Story,149,généralistes
+LES REPUBLICAINS,00:04:03,10 mai au 11 juin,RMC Story,243,généralistes
+RASSEMBLEMENT NATIONAL,00:06:21,10 mai au 11 juin,RMC Story,381,généralistes
+DEBOUT LA FRANCE,00:01:13,10 mai au 18 juin,RMC Story,73,généralistes
+EUROPE ECOLOGIE LES VERTS,00:01:24,10 mai au 18 juin,RMC Story,84,généralistes
+LA REPUBLIQUE EN MARCHE,00:06:12,10 mai au 18 juin,RMC Story,372,généralistes
+LES REPUBLICAINS,00:04:03,10 mai au 18 juin,RMC Story,243,généralistes
+PARTI SOCIALISTE,00:00:48,10 mai au 18 juin,RMC Story,48,généralistes
+RASSEMBLEMENT NATIONAL,00:06:21,10 mai au 18 juin,RMC Story,381,généralistes
+LA REPUBLIQUE EN MARCHE,00:07:25,10 au 21 mai 2021,BFM TV,445,tout info
+LES REPUBLICAINS,00:05:32,10 au 21 mai 2021,BFM TV,332,tout info
+PARTI SOCIALISTE,00:02:06,10 au 21 mai 2021,BFM TV,126,tout info
+RASSEMBLEMENT NATIONAL,00:10:59,10 au 21 mai 2021,BFM TV,659,tout info
+LA REPUBLIQUE EN MARCHE,00:10:21,10 au 28 mai 2021,BFM TV,621,tout info
+LES REPUBLICAINS,00:09:21,10 au 28 mai 2021,BFM TV,561,tout info
+PARTI SOCIALISTE,00:05:29,10 au 28 mai 2021,BFM TV,329,tout info
+PLACE PUBLIQUE,00:01:29,10 au 28 mai 2021,BFM TV,89,tout info
+RASSEMBLEMENT NATIONAL,00:11:52,10 au 28 mai 2021,BFM TV,712,tout info
+LA REPUBLIQUE EN MARCHE,00:10:59,10 mai au 4 juin,BFM TV,659,tout info
+LES REPUBLICAINS,00:11:34,10 mai au 4 juin,BFM TV,694,tout info
+PARTI SOCIALISTE,00:13:01,10 mai au 4 juin,BFM TV,781,tout info
+PLACE PUBLIQUE,00:01:29,10 mai au 4 juin,BFM TV,89,tout info
+RASSEMBLEMENT NATIONAL,00:21:02,10 mai au 4 juin,BFM TV,1262,tout info
+LA REPUBLIQUE EN MARCHE,00:13:22,10 mai au 11 juin,BFM TV,802,tout info
+LES REPUBLICAINS,00:13:03,10 mai au 11 juin,BFM TV,783,tout info
+MODEM,00:05:44,10 mai au 11 juin,BFM TV,344,tout info
+PARTI SOCIALISTE,00:13:01,10 mai au 11 juin,BFM TV,781,tout info
+PLACE PUBLIQUE,00:01:29,10 mai au 11 juin,BFM TV,89,tout info
+RASSEMBLEMENT NATIONAL,00:33:18,10 mai au 11 juin,BFM TV,1998,tout info
+DEBOUT LA FRANCE,00:03:09,10 mai au 18 juin,BFM TV,189,tout info
+EUROPE ECOLOGIE LES VERTS,00:12:50,10 mai au 18 juin,BFM TV,770,tout info
+LA FRANCE INSOUMISE,00:48:23,10 mai au 18 juin,BFM TV,2903,tout info
+LA REPUBLIQUE EN MARCHE,00:45:07,10 mai au 18 juin,BFM TV,2707,tout info
+LES REPUBLICAINS,00:29:51,10 mai au 18 juin,BFM TV,1791,tout info
+LIBRES,00:06:02,10 mai au 18 juin,BFM TV,362,tout info
+LUTTE OUVRIERE,00:03:14,10 mai au 18 juin,BFM TV,194,tout info
+MODEM,00:06:02,10 mai au 18 juin,BFM TV,362,tout info
+PARTI SOCIALISTE,00:13:01,10 mai au 18 juin,BFM TV,781,tout info
+PLACE PUBLIQUE,00:01:29,10 mai au 18 juin,BFM TV,89,tout info
+RASSEMBLEMENT NATIONAL,00:40:32,10 mai au 18 juin,BFM TV,2432,tout info
+DEBOUT LA FRANCE,00:01:36,10 au 21 mai 2021,Cnews,96,tout info
+LES PATRIOTES,00:01:33,10 au 21 mai 2021,Cnews,93,tout info
+LES REPUBLICAINS,00:30:12,10 au 21 mai 2021,Cnews,1812,tout info
+LA FRANCE INSOUMISE,00:17:03,10 au 21 mai 2021,Cnews,1023,tout info
+LIBRES,00:03:36,10 au 21 mai 2021,Cnews,216,tout info
+LA REPUBLIQUE EN MARCHE,00:31:40,10 au 21 mai 2021,Cnews,1900,tout info
+MODEM,00:02:34,10 au 21 mai 2021,Cnews,154,tout info
+PARTI COMMUNISTE FRANCAIS,00:02:44,10 au 21 mai 2021,Cnews,164,tout info
+PARTI SOCIALISTE,00:11:15,10 au 21 mai 2021,Cnews,675,tout info
+RASSEMBLEMENT NATIONAL,00:04:39,10 au 21 mai 2021,Cnews,279,tout info
+TERRITOIRES DE PROGRES,00:05:29,10 au 21 mai 2021,Cnews,329,tout info
+UDI,00:02:03,10 au 21 mai 2021,Cnews,123,tout info
+DEBOUT LA FRANCE,00:04:28,10 au 28 mai 2021,Cnews,268,tout info
+LES PATRIOTES,00:01:33,10 au 28 mai 2021,Cnews,93,tout info
+LES REPUBLICAINS,00:36:11,10 au 28 mai 2021,Cnews,2171,tout info
+LA FRANCE INSOUMISE,00:17:03,10 au 28 mai 2021,Cnews,1023,tout info
+LIBRES,00:03:36,10 au 28 mai 2021,Cnews,216,tout info
+LA REPUBLIQUE EN MARCHE,00:32:58,10 au 28 mai 2021,Cnews,1978,tout info
+MODEM,00:02:34,10 au 28 mai 2021,Cnews,154,tout info
+PARTI COMMUNISTE FRANCAIS,00:02:44,10 au 28 mai 2021,Cnews,164,tout info
+PARTI SOCIALISTE,00:12:52,10 au 28 mai 2021,Cnews,772,tout info
+RASSEMBLEMENT NATIONAL,00:09:51,10 au 28 mai 2021,Cnews,591,tout info
+TERRITOIRES DE PROGRES,00:05:29,10 au 28 mai 2021,Cnews,329,tout info
+UDI,00:02:03,10 au 28 mai 2021,Cnews,123,tout info
+AGIR,00:03:01,10 mai au 4 juin,Cnews,181,tout info
+DEBOUT LA FRANCE,00:05:43,10 mai au 4 juin,Cnews,343,tout info
+LA VOIX DU PEUPLE,00:01:38,10 mai au 4 juin,Cnews,98,tout info
+LES PATRIOTES,00:01:33,10 mai au 4 juin,Cnews,93,tout info
+LES REPUBLICAINS,00:39:20,10 mai au 4 juin,Cnews,2360,tout info
+LA FRANCE INSOUMISE,00:17:29,10 mai au 4 juin,Cnews,1049,tout info
+LIBRES,00:04:47,10 mai au 4 juin,Cnews,287,tout info
+LA REPUBLIQUE EN MARCHE,00:36:56,10 mai au 4 juin,Cnews,2216,tout info
+MODEM,00:02:34,10 mai au 4 juin,Cnews,154,tout info
+PARTI COMMUNISTE FRANCAIS,00:03:15,10 mai au 4 juin,Cnews,195,tout info
+PARTI SOCIALISTE,00:19:16,10 mai au 4 juin,Cnews,1156,tout info
+RASSEMBLEMENT NATIONAL,00:20:34,10 mai au 4 juin,Cnews,1234,tout info
+TERRITOIRES DE PROGRES,00:05:29,10 mai au 4 juin,Cnews,329,tout info
+UDI,00:03:51,10 mai au 4 juin,Cnews,231,tout info
+AGIR,00:03:01,10 mai au 11 juin,Cnews,181,tout info
+DEBOUT LA FRANCE,00:07:57,10 mai au 11 juin,Cnews,477,tout info
+DIVERS DROITE,00:00:58,10 mai au 11 juin,Cnews,58,tout info
+LA VOIX DU PEUPLE,00:01:38,10 mai au 11 juin,Cnews,98,tout info
+LES PATRIOTES,00:01:33,10 mai au 11 juin,Cnews,93,tout info
+LES REPUBLICAINS,00:54:45,10 mai au 11 juin,Cnews,3285,tout info
+LA FRANCE INSOUMISE,00:19:34,10 mai au 11 juin,Cnews,1174,tout info
+LIBRES,00:04:47,10 mai au 11 juin,Cnews,287,tout info
+LA REPUBLIQUE EN MARCHE,00:59:20,10 mai au 11 juin,Cnews,3560,tout info
+MODEM,00:05:38,10 mai au 11 juin,Cnews,338,tout info
+PARTI COMMUNISTE FRANCAIS,00:07:06,10 mai au 11 juin,Cnews,426,tout info
+PARTI SOCIALISTE,00:32:00,10 mai au 11 juin,Cnews,1920,tout info
+RASSEMBLEMENT NATIONAL,00:46:39,10 mai au 11 juin,Cnews,2799,tout info
+TERRITOIRES DE PROGRES,00:05:29,10 mai au 11 juin,Cnews,329,tout info
+UDI,00:06:18,10 mai au 11 juin,Cnews,378,tout info
+AGIR,00:03:01,10 mai au 18 juin,Cnews,181,tout info
+DEBOUT LA FRANCE,00:10:23,10 mai au 18 juin,Cnews,623,tout info
+DIVERS DROITE,00:02:53,10 mai au 18 juin,Cnews,173,tout info
+DIVERS GAUCHE,00:05:30,10 mai au 18 juin,Cnews,330,tout info
+EUROPE ECOLOGIE LES VERTS,00:39:50,10 mai au 18 juin,Cnews,2390,tout info
+LA VOIX DU PEUPLE,00:01:38,10 mai au 18 juin,Cnews,98,tout info
+LES CENTRISTES,00:01:21,10 mai au 18 juin,Cnews,81,tout info
+LES PATRIOTES,00:01:33,10 mai au 18 juin,Cnews,93,tout info
+LES REPUBLICAINS,01:05:00,10 mai au 18 juin,Cnews,3900,tout info
+LA FRANCE INSOUMISE,00:36:24,10 mai au 18 juin,Cnews,2184,tout info
+LIBRES,00:19:17,10 mai au 18 juin,Cnews,1157,tout info
+LA REPUBLIQUE EN MARCHE,01:13:20,10 mai au 18 juin,Cnews,4400,tout info
+MODEM,00:08:56,10 mai au 18 juin,Cnews,536,tout info
+PARTI COMMUNISTE FRANCAIS,00:09:38,10 mai au 18 juin,Cnews,578,tout info
+PARTI SOCIALISTE,00:52:39,10 mai au 18 juin,Cnews,3159,tout info
+RASSEMBLEMENT NATIONAL,00:52:06,10 mai au 18 juin,Cnews,3126,tout info
+TERRITOIRES DE PROGRES,00:10:18,10 mai au 18 juin,Cnews,618,tout info
+UDI,00:12:01,10 mai au 18 juin,Cnews,721,tout info
+EUROPE ECOLOGIE LES VERTS,00:10:13,10 au 21 mai 2021,LCI,613,tout info
+LA REPUBLIQUE EN MARCHE,03:53:04,10 au 21 mai 2021,LCI,13984,tout info
+LES REPUBLICAINS,00:15:42,10 au 21 mai 2021,LCI,942,tout info
+MODEM,00:03:43,10 au 21 mai 2021,LCI,223,tout info
+PARTI COMMUNISTE FRANCAIS,00:03:11,10 au 21 mai 2021,LCI,191,tout info
+PARTI SOCIALISTE,00:04:59,10 au 21 mai 2021,LCI,299,tout info
+RASSEMBLEMENT NATIONAL,00:30:33,10 au 21 mai 2021,LCI,1833,tout info
+UDI,00:02:14,10 au 21 mai 2021,LCI,134,tout info
+DEBOUT LA FRANCE,00:05:57,10 au 28 mai 2021,LCI,357,tout info
+EUROPE ECOLOGIE LES VERTS,00:10:13,10 au 28 mai 2021,LCI,613,tout info
+LA REPUBLIQUE EN MARCHE,03:54:35,10 au 28 mai 2021,LCI,14075,tout info
+LES REPUBLICAINS,00:15:42,10 au 28 mai 2021,LCI,942,tout info
+LIBRES,00:01:49,10 au 28 mai 2021,LCI,109,tout info
+MODEM,00:03:43,10 au 28 mai 2021,LCI,223,tout info
+PARTI COMMUNISTE FRANCAIS,00:03:11,10 au 28 mai 2021,LCI,191,tout info
+PARTI SOCIALISTE,00:06:13,10 au 28 mai 2021,LCI,373,tout info
+RASSEMBLEMENT NATIONAL,00:30:45,10 au 28 mai 2021,LCI,1845,tout info
+TERRITOIRES DE PROGRES,00:06:02,10 au 28 mai 2021,LCI,362,tout info
+UDI,00:02:14,10 au 28 mai 2021,LCI,134,tout info
+DEBOUT LA FRANCE,00:05:57,10 mai au 4 juin,LCI,357,tout info
+DIVERS GAUCHE,00:13:42,10 mai au 4 juin,LCI,822,tout info
+EUROPE ECOLOGIE LES VERTS,00:15:56,10 mai au 4 juin,LCI,956,tout info
+LA FRANCE INSOUMISE,00:03:12,10 mai au 4 juin,LCI,192,tout info
+LA REPUBLIQUE EN MARCHE,04:07:44,10 mai au 4 juin,LCI,14864,tout info
+LES REPUBLICAINS,00:21:55,10 mai au 4 juin,LCI,1315,tout info
+LIBRES,00:01:49,10 mai au 4 juin,LCI,109,tout info
+MODEM,00:03:43,10 mai au 4 juin,LCI,223,tout info
+PARTI COMMUNISTE FRANCAIS,00:03:11,10 mai au 4 juin,LCI,191,tout info
+PARTI SOCIALISTE,00:09:13,10 mai au 4 juin,LCI,553,tout info
+RASSEMBLEMENT NATIONAL,00:51:26,10 mai au 4 juin,LCI,3086,tout info
+TERRITOIRES DE PROGRES,00:06:02,10 mai au 4 juin,LCI,362,tout info
+UDI,00:02:14,10 mai au 4 juin,LCI,134,tout info
+DEBOUT LA FRANCE,00:05:57,10 mai au 11 juin,LCI,357,tout info
+DIVERS DROITE,00:02:22,10 mai au 11 juin,LCI,142,tout info
+DIVERS GAUCHE,00:13:42,10 mai au 11 juin,LCI,822,tout info
+EUROPE ECOLOGIE LES VERTS,00:22:27,10 mai au 11 juin,LCI,1347,tout info
+LA FRANCE INSOUMISE,00:05:30,10 mai au 11 juin,LCI,330,tout info
+LA REPUBLIQUE EN MARCHE,04:28:35,10 mai au 11 juin,LCI,16115,tout info
+LES REPUBLICAINS,00:37:38,10 mai au 11 juin,LCI,2258,tout info
+LIBRES,00:10:55,10 mai au 11 juin,LCI,655,tout info
+MODEM,00:06:38,10 mai au 11 juin,LCI,398,tout info
+PARTI COMMUNISTE FRANCAIS,00:03:11,10 mai au 11 juin,LCI,191,tout info
+PARTI SOCIALISTE,00:12:53,10 mai au 11 juin,LCI,773,tout info
+RASSEMBLEMENT NATIONAL,01:17:34,10 mai au 11 juin,LCI,4654,tout info
+TERRITOIRES DE PROGRES,00:06:02,10 mai au 11 juin,LCI,362,tout info
+UDI,00:02:14,10 mai au 11 juin,LCI,134,tout info
+DEBOUT LA FRANCE,00:05:57,10 mai au 18 juin,LCI,357,tout info
+DIVERS DROITE,00:02:22,10 mai au 18 juin,LCI,142,tout info
+DIVERS GAUCHE,00:13:42,10 mai au 18 juin,LCI,822,tout info
+EUROPE ECOLOGIE LES VERTS,00:53:25,10 mai au 18 juin,LCI,3205,tout info
+LA FRANCE INSOUMISE,00:46:08,10 mai au 18 juin,LCI,2768,tout info
+LA REPUBLIQUE EN MARCHE,04:29:44,10 mai au 18 juin,LCI,16184,tout info
+LES REPUBLICAINS,03:29:31,10 mai au 18 juin,LCI,12571,tout info
+LIBRES,00:11:17,10 mai au 18 juin,LCI,677,tout info
+MODEM,00:16:58,10 mai au 18 juin,LCI,1018,tout info
+MOUVEMENT RADICAL,00:01:08,10 mai au 18 juin,LCI,68,tout info
+PARTI COMMUNISTE FRANCAIS,00:05:43,10 mai au 18 juin,LCI,343,tout info
+PARTI SOCIALISTE,01:18:26,10 mai au 18 juin,LCI,4706,tout info
+RASSEMBLEMENT NATIONAL,02:03:25,10 mai au 18 juin,LCI,7405,tout info
+TERRITOIRES DE PROGRES,00:06:02,10 mai au 18 juin,LCI,362,tout info
+UDI,00:04:06,10 mai au 18 juin,LCI,246,tout info
+DIVERS DROITE,00:04:40,10 au 21 mai 2021,France info TV,280,tout info
+EUROPE ECOLOGIE LES VERTS,00:02:38,10 au 21 mai 2021,France info TV,158,tout info
+LA FRANCE INSOUMISE,00:07:37,10 au 21 mai 2021,France info TV,457,tout info
+LA REPUBLIQUE EN MARCHE,00:22:30,10 au 21 mai 2021,France info TV,1350,tout info
+LES PATRIOTES,00:01:09,10 au 21 mai 2021,France info TV,69,tout info
+LES REPUBLICAINS,00:13:47,10 au 21 mai 2021,France info TV,827,tout info
+MODEM,00:06:51,10 au 21 mai 2021,France info TV,411,tout info
+PARTI COMMUNISTE FRANCAIS,00:01:58,10 au 21 mai 2021,France info TV,118,tout info
+RASSEMBLEMENT NATIONAL,00:36:08,10 au 21 mai 2021,France info TV,2168,tout info
+UDI,00:00:14,10 au 21 mai 2021,France info TV,14,tout info
+DIVERS DROITE,00:04:40,10 au 28 mai 2021,France info TV,280,tout info
+DIVERS GAUCHE,00:15:41,10 au 28 mai 2021,France info TV,941,tout info
+EUROPE ECOLOGIE LES VERTS,00:08:10,10 au 28 mai 2021,France info TV,490,tout info
+LA FRANCE INSOUMISE,00:07:37,10 au 28 mai 2021,France info TV,457,tout info
+LA REPUBLIQUE EN MARCHE,00:45:17,10 au 28 mai 2021,France info TV,2717,tout info
+LES PATRIOTES,00:01:09,10 au 28 mai 2021,France info TV,69,tout info
+LES REPUBLICAINS,00:30:33,10 au 28 mai 2021,France info TV,1833,tout info
+MODEM,00:06:51,10 au 28 mai 2021,France info TV,411,tout info
+PARTI COMMUNISTE FRANCAIS,00:06:36,10 au 28 mai 2021,France info TV,396,tout info
+PARTI SOCIALISTE,00:07:55,10 au 28 mai 2021,France info TV,475,tout info
+RASSEMBLEMENT NATIONAL,00:41:25,10 au 28 mai 2021,France info TV,2485,tout info
+UDI,00:00:14,10 au 28 mai 2021,France info TV,14,tout info
+DEBOUT LA FRANCE,00:00:52,10 mai au 4 juin,France info TV,52,tout info
+DIVERS DROITE,00:05:08,10 mai au 4 juin,France info TV,308,tout info
+DIVERS GAUCHE,00:15:51,10 mai au 4 juin,France info TV,951,tout info
+EUROPE ECOLOGIE LES VERTS,00:25:24,10 mai au 4 juin,France info TV,1524,tout info
+GENERATION-S,00:00:26,10 mai au 4 juin,France info TV,26,tout info
+LA FRANCE INSOUMISE,00:09:41,10 mai au 4 juin,France info TV,581,tout info
+LA REPUBLIQUE EN MARCHE,01:00:00,10 mai au 4 juin,France info TV,3600,tout info
+LES PATRIOTES,00:01:09,10 mai au 4 juin,France info TV,69,tout info
+LES REPUBLICAINS,00:43:35,10 mai au 4 juin,France info TV,2615,tout info
+LIBRES,00:14:49,10 mai au 4 juin,France info TV,889,tout info
+MODEM,00:07:01,10 mai au 4 juin,France info TV,421,tout info
+PARTI COMMUNISTE FRANCAIS,00:06:36,10 mai au 4 juin,France info TV,396,tout info
+PARTI SOCIALISTE,00:07:55,10 mai au 4 juin,France info TV,475,tout info
+RASSEMBLEMENT NATIONAL,00:46:51,10 mai au 4 juin,France info TV,2811,tout info
+UDI,00:03:37,10 mai au 4 juin,France info TV,217,tout info
+DEBOUT LA FRANCE,00:00:52,10 mai au 11 juin,France info TV,52,tout info
+DIVERS DROITE,00:05:13,10 mai au 11 juin,France info TV,313,tout info
+DIVERS GAUCHE,00:15:51,10 mai au 11 juin,France info TV,951,tout info
+EUROPE ECOLOGIE LES VERTS,00:35:10,10 mai au 11 juin,France info TV,2110,tout info
+GENERATION-S,00:00:26,10 mai au 11 juin,France info TV,26,tout info
+LA FRANCE INSOUMISE,00:37:06,10 mai au 11 juin,France info TV,2226,tout info
+LA REPUBLIQUE EN MARCHE,01:06:30,10 mai au 11 juin,France info TV,3990,tout info
+LES PATRIOTES,00:01:09,10 mai au 11 juin,France info TV,69,tout info
+LES REPUBLICAINS,00:43:35,10 mai au 11 juin,France info TV,2615,tout info
+LIBRES,00:14:49,10 mai au 11 juin,France info TV,889,tout info
+MODEM,00:08:01,10 mai au 11 juin,France info TV,481,tout info
+PARTI COMMUNISTE FRANCAIS,00:12:56,10 mai au 11 juin,France info TV,776,tout info
+PARTI SOCIALISTE,00:07:55,10 mai au 11 juin,France info TV,475,tout info
+RASSEMBLEMENT NATIONAL,01:03:22,10 mai au 11 juin,France info TV,3802,tout info
+UDI,00:05:58,10 mai au 11 juin,France info TV,358,tout info
+DEBOUT LA FRANCE,00:00:52,10 mai au 18 juin,France info TV,52,tout info
+DIVERS DROITE,00:15:01,10 mai au 18 juin,France info TV,901,tout info
+DIVERS GAUCHE,00:15:51,10 mai au 18 juin,France info TV,951,tout info
+EUROPE ECOLOGIE LES VERTS,00:40:06,10 mai au 18 juin,France info TV,2406,tout info
+GENERATION ECOLOGIE,00:02:01,10 mai au 18 juin,France info TV,121,tout info
+GENERATION-S,00:00:38,10 mai au 18 juin,France info TV,38,tout info
+LA FRANCE INSOUMISE,00:37:24,10 mai au 18 juin,France info TV,2244,tout info
+LA REPUBLIQUE EN MARCHE,01:20:17,10 mai au 18 juin,France info TV,4817,tout info
+LES PATRIOTES,00:01:09,10 mai au 18 juin,France info TV,69,tout info
+LES REPUBLICAINS,01:08:13,10 mai au 18 juin,France info TV,4093,tout info
+LIBRES,00:15:13,10 mai au 18 juin,France info TV,913,tout info
+LUTTE OUVRIERE,00:05:42,10 mai au 18 juin,France info TV,342,tout info
+MODEM,00:08:01,10 mai au 18 juin,France info TV,481,tout info
+PARTI COMMUNISTE FRANCAIS,00:14:15,10 mai au 18 juin,France info TV,855,tout info
+PARTI SOCIALISTE,00:24:05,10 mai au 18 juin,France info TV,1445,tout info
+RASSEMBLEMENT NATIONAL,01:04:09,10 mai au 18 juin,France info TV,3849,tout info
+UDI,00:07:28,10 mai au 18 juin,France info TV,448,tout info
+LA REPUBLIQUE EN MARCHE,00:01:30,10 au 21 mai 2021,RT France,90,NA
+LES REPUBLICAINS,00:01:38,10 au 21 mai 2021,RT France,98,NA
+RASSEMBLEMENT NATIONAL,00:01:26,10 au 21 mai 2021,RT France,86,NA
+DIVERS GAUCHE,00:01:00,10 au 28 mai 2021,RT France,60,NA
+LA FRANCE INSOUMISE,00:01:14,10 au 28 mai 2021,RT France,74,NA
+LA REPUBLIQUE EN MARCHE,00:04:54,10 au 28 mai 2021,RT France,294,NA
+LES REPUBLICAINS,00:05:27,10 au 28 mai 2021,RT France,327,NA
+MODEM,00:00:30,10 au 28 mai 2021,RT France,30,NA
+PARTI SOCIALISTE,00:02:38,10 au 28 mai 2021,RT France,158,NA
+RASSEMBLEMENT NATIONAL,00:05:13,10 au 28 mai 2021,RT France,313,NA
+DEBOUT LA FRANCE,00:00:31,10 mai au 4 juin,RT France,31,NA
+DIVERS GAUCHE,00:01:00,10 mai au 4 juin,RT France,60,NA
+EUROPE ECOLOGIE LES VERTS,00:02:13,10 mai au 4 juin,RT France,133,NA
+LA FRANCE INSOUMISE,00:01:14,10 mai au 4 juin,RT France,74,NA
+LA REPUBLIQUE EN MARCHE,00:04:54,10 mai au 4 juin,RT France,294,NA
+LEF,00:00:08,10 mai au 4 juin,RT France,8,NA
+LES REPUBLICAINS,00:05:27,10 mai au 4 juin,RT France,327,NA
+MODEM,00:00:30,10 mai au 4 juin,RT France,30,NA
+PARTI COMMUNISTE FRANCAIS,00:00:32,10 mai au 4 juin,RT France,32,NA
+PARTI SOCIALISTE,00:02:38,10 mai au 4 juin,RT France,158,NA
+RASSEMBLEMENT NATIONAL,00:05:13,10 mai au 4 juin,RT France,313,NA
+DEBOUT LA FRANCE,00:00:31,10 mai au 11 juin,RT France,31,NA
+DIVERS,00:00:43,10 mai au 11 juin,RT France,43,NA
+DIVERS DROITE,00:01:18,10 mai au 11 juin,RT France,78,NA
+DIVERS GAUCHE,00:01:00,10 mai au 11 juin,RT France,60,NA
+EUROPE ECOLOGIE LES VERTS,00:02:13,10 mai au 11 juin,RT France,133,NA
+LA FRANCE INSOUMISE,00:01:39,10 mai au 11 juin,RT France,99,NA
+LA REPUBLIQUE EN MARCHE,00:04:54,10 mai au 11 juin,RT France,294,NA
+LEF,00:00:08,10 mai au 11 juin,RT France,8,NA
+LES PATRIOTES,00:00:10,10 mai au 11 juin,RT France,10,NA
+LES REPUBLICAINS,00:05:27,10 mai au 11 juin,RT France,327,NA
+LIBRES,00:00:10,10 mai au 11 juin,RT France,10,NA
+LUTTE OUVRIERE,00:00:18,10 mai au 11 juin,RT France,18,NA
+MODEM,00:00:30,10 mai au 11 juin,RT France,30,NA
+PARTI COMMUNISTE FRANCAIS,00:00:32,10 mai au 11 juin,RT France,32,NA
+PARTI SOCIALISTE,00:02:38,10 mai au 11 juin,RT France,158,NA
+RASSEMBLEMENT NATIONAL,00:06:59,10 mai au 11 juin,RT France,419,NA
+UDI,00:00:10,10 mai au 11 juin,RT France,10,NA
+DEBOUT LA FRANCE,00:00:50,10 mai au 18 juin,RT France,50,NA
+DIVERS,00:01:34,10 mai au 18 juin,RT France,94,NA
+DIVERS DROITE,00:01:58,10 mai au 18 juin,RT France,118,NA
+DIVERS GAUCHE,00:01:00,10 mai au 18 juin,RT France,60,NA
+EUROPE ECOLOGIE LES VERTS,00:05:57,10 mai au 18 juin,RT France,357,NA
+LA FRANCE INSOUMISE,00:03:17,10 mai au 18 juin,RT France,197,NA
+LA REPUBLIQUE EN MARCHE,00:11:58,10 mai au 18 juin,RT France,718,NA
+LEF,00:00:08,10 mai au 18 juin,RT France,8,NA
+LES PATRIOTES,00:00:54,10 mai au 18 juin,RT France,54,NA
+LES REPUBLICAINS,00:11:07,10 mai au 18 juin,RT France,667,NA
+LIBRES,00:00:10,10 mai au 18 juin,RT France,10,NA
+LUTTE OUVRIERE,00:00:38,10 mai au 18 juin,RT France,38,NA
+MODEM,00:00:44,10 mai au 18 juin,RT France,44,NA
+PARTI COMMUNISTE FRANCAIS,00:01:10,10 mai au 18 juin,RT France,70,NA
+PARTI SOCIALISTE,00:06:35,10 mai au 18 juin,RT France,395,NA
+RASSEMBLEMENT NATIONAL,00:11:19,10 mai au 18 juin,RT France,679,NA
+UDI,00:00:10,10 mai au 18 juin,RT France,10,NA
+DIVERS DROITE,00:00:10,10 au 21 mai 2021,France Inter,10,radios
+LA FRANCE INSOUMISE,00:00:27,10 au 21 mai 2021,France Inter,27,radios
+LA REPUBLIQUE EN MARCHE,00:01:51,10 au 21 mai 2021,France Inter,111,radios
+LES REPUBLICAINS,00:02:22,10 au 21 mai 2021,France Inter,142,radios
+MODEM,00:02:42,10 au 21 mai 2021,France Inter,162,radios
+PARTI SOCIALISTE,00:01:08,10 au 21 mai 2021,France Inter,68,radios
+RASSEMBLEMENT NATIONAL,00:01:43,10 au 21 mai 2021,France Inter,103,radios
+DEBOUT LA FRANCE,00:00:58,10 au 28 mai 2021,France Inter,58,radios
+DIVERS DROITE,00:00:10,10 au 28 mai 2021,France Inter,10,radios
+DIVERS GAUCHE,00:00:14,10 au 28 mai 2021,France Inter,14,radios
+EUROPE ECOLOGIE LES VERTS,00:03:44,10 au 28 mai 2021,France Inter,224,radios
+LA FRANCE INSOUMISE,00:00:27,10 au 28 mai 2021,France Inter,27,radios
+LA REPUBLIQUE EN MARCHE,00:02:26,10 au 28 mai 2021,France Inter,146,radios
+LES REPUBLICAINS,00:02:22,10 au 28 mai 2021,France Inter,142,radios
+MODEM,00:03:28,10 au 28 mai 2021,France Inter,208,radios
+PARTI COMMUNISTE FRANCAIS,00:00:47,10 au 28 mai 2021,France Inter,47,radios
+PARTI SOCIALISTE,00:01:17,10 au 28 mai 2021,France Inter,77,radios
+RASSEMBLEMENT NATIONAL,00:01:43,10 au 28 mai 2021,France Inter,103,radios
+DEBOUT LA FRANCE,00:00:58,10 mai au 4 juin,France Inter,58,radios
+DIVERS DROITE,00:00:19,10 mai au 4 juin,France Inter,19,radios
+DIVERS GAUCHE,00:00:14,10 mai au 4 juin,France Inter,14,radios
+EUROPE ECOLOGIE LES VERTS,00:03:44,10 mai au 4 juin,France Inter,224,radios
+LA FRANCE INSOUMISE,00:00:27,10 mai au 4 juin,France Inter,27,radios
+LA REPUBLIQUE EN MARCHE,00:08:19,10 mai au 4 juin,France Inter,499,radios
+LES REPUBLICAINS,00:03:10,10 mai au 4 juin,France Inter,190,radios
+LIBRES,00:01:13,10 mai au 4 juin,France Inter,73,radios
+MODEM,00:03:28,10 mai au 4 juin,France Inter,208,radios
+PARTI COMMUNISTE FRANCAIS,00:01:14,10 mai au 4 juin,France Inter,74,radios
+PARTI SOCIALISTE,00:01:17,10 mai au 4 juin,France Inter,77,radios
+RASSEMBLEMENT NATIONAL,00:01:48,10 mai au 4 juin,France Inter,108,radios
+DEBOUT LA FRANCE,00:00:58,10 mai au 11 juin,France Inter,58,radios
+DIVERS DROITE,00:00:41,10 mai au 11 juin,France Inter,41,radios
+DIVERS GAUCHE,00:00:14,10 mai au 11 juin,France Inter,14,radios
+EUROPE ECOLOGIE LES VERTS,00:04:49,10 mai au 11 juin,France Inter,289,radios
+LA FRANCE INSOUMISE,00:01:47,10 mai au 11 juin,France Inter,107,radios
+LA REPUBLIQUE EN MARCHE,00:10:40,10 mai au 11 juin,France Inter,640,radios
+LES REPUBLICAINS,00:03:10,10 mai au 11 juin,France Inter,190,radios
+LIBRES,00:02:35,10 mai au 11 juin,France Inter,155,radios
+MODEM,00:03:28,10 mai au 11 juin,France Inter,208,radios
+PARTI COMMUNISTE FRANCAIS,00:01:14,10 mai au 11 juin,France Inter,74,radios
+PARTI SOCIALISTE,00:01:17,10 mai au 11 juin,France Inter,77,radios
+RASSEMBLEMENT NATIONAL,00:01:48,10 mai au 11 juin,France Inter,108,radios
+DEBOUT LA FRANCE,00:00:58,10 mai au 18 juin,France Inter,58,radios
+DIVERS DROITE,00:01:52,10 mai au 18 juin,France Inter,112,radios
+DIVERS GAUCHE,00:00:14,10 mai au 18 juin,France Inter,14,radios
+EUROPE ECOLOGIE LES VERTS,00:05:56,10 mai au 18 juin,France Inter,356,radios
+LA FRANCE INSOUMISE,00:02:08,10 mai au 18 juin,France Inter,128,radios
+LA REPUBLIQUE EN MARCHE,00:11:33,10 mai au 18 juin,France Inter,693,radios
+LES REPUBLICAINS,00:08:50,10 mai au 18 juin,France Inter,530,radios
+LIBRES,00:02:35,10 mai au 18 juin,France Inter,155,radios
+MODEM,00:03:28,10 mai au 18 juin,France Inter,208,radios
+PARTI COMMUNISTE FRANCAIS,00:01:29,10 mai au 18 juin,France Inter,89,radios
+PARTI SOCIALISTE,00:02:14,10 mai au 18 juin,France Inter,134,radios
+RASSEMBLEMENT NATIONAL,00:05:17,10 mai au 18 juin,France Inter,317,radios
+UDI,00:00:33,10 mai au 18 juin,France Inter,33,radios
+UDMF,00:00:10,10 mai au 18 juin,France Inter,10,radios
+EUROPE ECOLOGIE LES VERTS,00:03:05,10 au 21 mai 2021,France Info,185,radios
+LA FRANCE INSOUMISE,00:01:01,10 au 21 mai 2021,France Info,61,radios
+LA REPUBLIQUE EN MARCHE,00:35:56,10 au 21 mai 2021,France Info,2156,radios
+LES REPUBLICAINS,00:06:58,10 au 21 mai 2021,France Info,418,radios
+LIBRES,00:00:02,10 au 21 mai 2021,France Info,2,radios
+PARTI COMMUNISTE FRANCAIS,00:01:11,10 au 21 mai 2021,France Info,71,radios
+RASSEMBLEMENT NATIONAL,00:26:01,10 au 21 mai 2021,France Info,1561,radios
+AGIR,00:00:13,10 au 28 mai 2021,France Info,13,radios
+DIVERS GAUCHE,00:17:27,10 au 28 mai 2021,France Info,1047,radios
+EUROPE ECOLOGIE LES VERTS,00:06:06,10 au 28 mai 2021,France Info,366,radios
+LA FRANCE INSOUMISE,00:08:08,10 au 28 mai 2021,France Info,488,radios
+LA REPUBLIQUE EN MARCHE,00:48:43,10 au 28 mai 2021,France Info,2923,radios
+LES REPUBLICAINS,00:16:05,10 au 28 mai 2021,France Info,965,radios
+LIBRES,00:00:02,10 au 28 mai 2021,France Info,2,radios
+PARTI COMMUNISTE FRANCAIS,00:01:11,10 au 28 mai 2021,France Info,71,radios
+PARTI SOCIALISTE,00:03:13,10 au 28 mai 2021,France Info,193,radios
+RASSEMBLEMENT NATIONAL,00:30:52,10 au 28 mai 2021,France Info,1852,radios
+UDI,00:00:08,10 au 28 mai 2021,France Info,8,radios
+AGIR,00:00:13,10 mai au 4 juin,France Info,13,radios
+DIVERS GAUCHE,00:17:27,10 mai au 4 juin,France Info,1047,radios
+EUROPE ECOLOGIE LES VERTS,00:21:50,10 mai au 4 juin,France Info,1310,radios
+LA FRANCE INSOUMISE,00:08:08,10 mai au 4 juin,France Info,488,radios
+LA REPUBLIQUE EN MARCHE,00:50:12,10 mai au 4 juin,France Info,3012,radios
+LES REPUBLICAINS,00:38:29,10 mai au 4 juin,France Info,2309,radios
+LIBRES,00:06:24,10 mai au 4 juin,France Info,384,radios
+PARTI COMMUNISTE FRANCAIS,00:01:11,10 mai au 4 juin,France Info,71,radios
+PARTI SOCIALISTE,00:03:13,10 mai au 4 juin,France Info,193,radios
+RASSEMBLEMENT NATIONAL,00:44:08,10 mai au 4 juin,France Info,2648,radios
+UDI,00:03:18,10 mai au 4 juin,France Info,198,radios
+AGIR,00:00:13,10 mai au 11 juin,France Info,13,radios
+DIVERS DROITE,00:01:23,10 mai au 11 juin,France Info,83,radios
+DIVERS GAUCHE,00:17:27,10 mai au 11 juin,France Info,1047,radios
+EUROPE ECOLOGIE LES VERTS,00:29:51,10 mai au 11 juin,France Info,1791,radios
+LA FRANCE INSOUMISE,00:22:07,10 mai au 11 juin,France Info,1327,radios
+LA REPUBLIQUE EN MARCHE,00:53:06,10 mai au 11 juin,France Info,3186,radios
+LES REPUBLICAINS,00:38:29,10 mai au 11 juin,France Info,2309,radios
+LIBRES,00:06:24,10 mai au 11 juin,France Info,384,radios
+PARTI COMMUNISTE FRANCAIS,00:03:02,10 mai au 11 juin,France Info,182,radios
+PARTI SOCIALISTE,00:03:13,10 mai au 11 juin,France Info,193,radios
+RASSEMBLEMENT NATIONAL,00:59:21,10 mai au 11 juin,France Info,3561,radios
+UDI,00:05:35,10 mai au 11 juin,France Info,335,radios
+AGIR,00:00:13,10 mai au 18 juin,France Info,13,radios
+DEBOUT LA FRANCE,00:00:11,10 mai au 18 juin,France Info,11,radios
+DIVERS DROITE,00:11:15,10 mai au 18 juin,France Info,675,radios
+DIVERS GAUCHE,00:17:43,10 mai au 18 juin,France Info,1063,radios
+EUROPE ECOLOGIE LES VERTS,00:51:07,10 mai au 18 juin,France Info,3067,radios
+LA FRANCE INSOUMISE,00:28:21,10 mai au 18 juin,France Info,1701,radios
+LA REPUBLIQUE EN MARCHE,01:06:28,10 mai au 18 juin,France Info,3988,radios
+LES REPUBLICAINS,00:51:17,10 mai au 18 juin,France Info,3077,radios
+LIBRES,00:06:48,10 mai au 18 juin,France Info,408,radios
+PARTI COMMUNISTE FRANCAIS,00:04:07,10 mai au 18 juin,France Info,247,radios
+PARTI SOCIALISTE,00:22:09,10 mai au 18 juin,France Info,1329,radios
+PRG,00:00:11,10 mai au 18 juin,France Info,11,radios
+RASSEMBLEMENT NATIONAL,01:01:28,10 mai au 18 juin,France Info,3688,radios
+UDI,00:14:55,10 mai au 18 juin,France Info,895,radios
+LA FRANCE INSOUMISE,00:00:11,10 au 21 mai 2021,France Culture,11,radios
+LA REPUBLIQUE EN MARCHE,00:02:24,10 au 21 mai 2021,France Culture,144,radios
+LIBRES,00:00:06,10 au 21 mai 2021,France Culture,6,radios
+PARTI SOCIALISTE,00:00:34,10 au 21 mai 2021,France Culture,34,radios
+RASSEMBLEMENT NATIONAL,00:00:23,10 au 21 mai 2021,France Culture,23,radios
+DIVERS GAUCHE,00:00:23,10 au 28 mai 2021,France Culture,23,radios
+LA FRANCE INSOUMISE,00:00:11,10 au 28 mai 2021,France Culture,11,radios
+LA REPUBLIQUE EN MARCHE,00:02:24,10 au 28 mai 2021,France Culture,144,radios
+LES REPUBLICAINS,00:00:36,10 au 28 mai 2021,France Culture,36,radios
+LIBRES,00:00:06,10 au 28 mai 2021,France Culture,6,radios
+PARTI SOCIALISTE,00:00:34,10 au 28 mai 2021,France Culture,34,radios
+RASSEMBLEMENT NATIONAL,00:00:23,10 au 28 mai 2021,France Culture,23,radios
+DIVERS DROITE,00:00:26,10 mai au 4 juin,France Culture,26,radios
+DIVERS GAUCHE,00:00:23,10 mai au 4 juin,France Culture,23,radios
+LA FRANCE INSOUMISE,00:00:11,10 mai au 4 juin,France Culture,11,radios
+LA REPUBLIQUE EN MARCHE,00:02:24,10 mai au 4 juin,France Culture,144,radios
+LES REPUBLICAINS,00:00:53,10 mai au 4 juin,France Culture,53,radios
+LIBRES,00:00:06,10 mai au 4 juin,France Culture,6,radios
+PARTI SOCIALISTE,00:00:34,10 mai au 4 juin,France Culture,34,radios
+RASSEMBLEMENT NATIONAL,00:00:23,10 mai au 4 juin,France Culture,23,radios
+DIVERS DROITE,00:00:26,10 mai au 11 juin,France Culture,26,radios
+DIVERS GAUCHE,00:00:23,10 mai au 11 juin,France Culture,23,radios
+LA FRANCE INSOUMISE,00:00:24,10 mai au 11 juin,France Culture,24,radios
+LA REPUBLIQUE EN MARCHE,00:02:51,10 mai au 11 juin,France Culture,171,radios
+LES REPUBLICAINS,00:01:27,10 mai au 11 juin,France Culture,87,radios
+LIBRES,00:00:06,10 mai au 11 juin,France Culture,6,radios
+PARTI SOCIALISTE,00:00:34,10 mai au 11 juin,France Culture,34,radios
+RASSEMBLEMENT NATIONAL,00:00:23,10 mai au 11 juin,France Culture,23,radios
+DIVERS DROITE,00:00:26,10 mai au 18 juin,France Culture,26,radios
+DIVERS GAUCHE,00:00:35,10 mai au 18 juin,France Culture,35,radios
+EUROPE ECOLOGIE LES VERTS,00:01:03,10 mai au 18 juin,France Culture,63,radios
+LA FRANCE INSOUMISE,00:01:30,10 mai au 18 juin,France Culture,90,radios
+LA REPUBLIQUE EN MARCHE,00:09:00,10 mai au 18 juin,France Culture,540,radios
+LES REPUBLICAINS,00:09:11,10 mai au 18 juin,France Culture,551,radios
+LIBRES,00:00:06,10 mai au 18 juin,France Culture,6,radios
+PARTI COMMUNISTE FRANCAIS,00:00:31,10 mai au 18 juin,France Culture,31,radios
+PARTI SOCIALISTE,00:02:28,10 mai au 18 juin,France Culture,148,radios
+PRG,00:00:40,10 mai au 18 juin,France Culture,40,radios
+RASSEMBLEMENT NATIONAL,00:03:39,10 mai au 18 juin,France Culture,219,radios
+LES REPUBLICAINS,00:02:42,10 au 28 mai 2021,Sud Radio,162,radios
+LES REPUBLICAINS,00:04:52,10 mai au 4 juin,Sud Radio,292,radios
+LA REPUBLIQUE EN MARCHE,00:01:29,10 mai au 11 juin,Sud Radio,89,radios
+LES REPUBLICAINS,00:04:52,10 mai au 11 juin,Sud Radio,292,radios
+MODEM,00:03:17,10 mai au 11 juin,Sud Radio,197,radios
+PARTI SOCIALISTE,00:00:21,10 mai au 11 juin,Sud Radio,21,radios
+EUROPE ECOLOGIE LES VERTS,00:01:27,10 mai au 18 juin,Sud Radio,87,radios
+LA FRANCE INSOUMISE,00:02:49,10 mai au 18 juin,Sud Radio,169,radios
+LA REPUBLIQUE EN MARCHE,00:03:26,10 mai au 18 juin,Sud Radio,206,radios
+LES REPUBLICAINS,00:04:52,10 mai au 18 juin,Sud Radio,292,radios
+MODEM,00:03:17,10 mai au 18 juin,Sud Radio,197,radios
+PARTI SOCIALISTE,00:01:12,10 mai au 18 juin,Sud Radio,72,radios
+RASSEMBLEMENT NATIONAL,00:03:32,10 mai au 18 juin,Sud Radio,212,radios
+LA FRANCE INSOUMISE,00:02:38,10 au 21 mai 2021,Europe 1,158,radios
+LA REPUBLIQUE EN MARCHE,00:03:33,10 au 21 mai 2021,Europe 1,213,radios
+LES REPUBLICAINS,00:05:32,10 au 21 mai 2021,Europe 1,332,radios
+LA FRANCE INSOUMISE,00:02:38,10 au 28 mai 2021,Europe 1,158,radios
+LA REPUBLIQUE EN MARCHE,00:03:33,10 au 28 mai 2021,Europe 1,213,radios
+LES REPUBLICAINS,00:05:46,10 au 28 mai 2021,Europe 1,346,radios
+PARTI SOCIALISTE,00:04:42,10 au 28 mai 2021,Europe 1,282,radios
+LA FRANCE INSOUMISE,00:02:38,10 mai au 4 juin,Europe 1,158,radios
+LA REPUBLIQUE EN MARCHE,00:08:11,10 mai au 4 juin,Europe 1,491,radios
+LES REPUBLICAINS,00:06:50,10 mai au 4 juin,Europe 1,410,radios
+PARTI SOCIALISTE,00:04:42,10 mai au 4 juin,Europe 1,282,radios
+LA FRANCE INSOUMISE,00:02:38,10 mai au 11 juin,Europe 1,158,radios
+LA REPUBLIQUE EN MARCHE,00:16:15,10 mai au 11 juin,Europe 1,975,radios
+LES REPUBLICAINS,00:07:56,10 mai au 11 juin,Europe 1,476,radios
+PARTI SOCIALISTE,00:04:42,10 mai au 11 juin,Europe 1,282,radios
+RASSEMBLEMENT NATIONAL,00:00:24,10 mai au 11 juin,Europe 1,24,radios
+UDI,00:00:22,10 mai au 11 juin,Europe 1,22,radios
+DIVERS CENTRE,00:01:36,10 mai au 18 juin,Europe 1,96,radios
+LA FRANCE INSOUMISE,00:02:38,10 mai au 18 juin,Europe 1,158,radios
+LA REPUBLIQUE EN MARCHE,00:20:57,10 mai au 18 juin,Europe 1,1257,radios
+LES REPUBLICAINS,00:07:56,10 mai au 18 juin,Europe 1,476,radios
+PARTI SOCIALISTE,00:04:42,10 mai au 18 juin,Europe 1,282,radios
+RASSEMBLEMENT NATIONAL,00:00:51,10 mai au 18 juin,Europe 1,51,radios
+UDI,00:00:22,10 mai au 18 juin,Europe 1,22,radios
+EUROPE ECOLOGIE LES VERTS,00:02:48,10 au 21 mai 2021,RMC,168,radios
+LA REPUBLIQUE EN MARCHE,00:03:18,10 au 21 mai 2021,RMC,198,radios
+LES REPUBLICAINS,00:13:59,10 au 21 mai 2021,RMC,839,radios
+EUROPE ECOLOGIE LES VERTS,00:02:48,10 au 28 mai 2021,RMC,168,radios
+LA REPUBLIQUE EN MARCHE,00:03:18,10 au 28 mai 2021,RMC,198,radios
+LES REPUBLICAINS,00:14:27,10 au 28 mai 2021,RMC,867,radios
+PLACE PUBLIQUE,00:01:29,10 au 28 mai 2021,RMC,89,radios
+RASSEMBLEMENT NATIONAL,00:00:53,10 au 28 mai 2021,RMC,53,radios
+EUROPE ECOLOGIE LES VERTS,00:02:48,10 mai au 4 juin,RMC,168,radios
+LA REPUBLIQUE EN MARCHE,00:03:18,10 mai au 4 juin,RMC,198,radios
+LES REPUBLICAINS,00:14:49,10 mai au 4 juin,RMC,889,radios
+PARTI SOCIALISTE,00:03:56,10 mai au 4 juin,RMC,236,radios
+PLACE PUBLIQUE,00:01:29,10 mai au 4 juin,RMC,89,radios
+RASSEMBLEMENT NATIONAL,00:00:53,10 mai au 4 juin,RMC,53,radios
+EUROPE ECOLOGIE LES VERTS,00:02:48,10 mai au 11 juin,RMC,168,radios
+LA REPUBLIQUE EN MARCHE,00:09:18,10 mai au 11 juin,RMC,558,radios
+LES REPUBLICAINS,00:16:18,10 mai au 11 juin,RMC,978,radios
+PARTI SOCIALISTE,00:03:56,10 mai au 11 juin,RMC,236,radios
+PLACE PUBLIQUE,00:01:29,10 mai au 11 juin,RMC,89,radios
+RASSEMBLEMENT NATIONAL,00:07:14,10 mai au 11 juin,RMC,434,radios
+DEBOUT LA FRANCE,00:02:26,10 mai au 18 juin,RMC,146,radios
+EUROPE ECOLOGIE LES VERTS,00:03:56,10 mai au 18 juin,RMC,236,radios
+LA FRANCE INSOUMISE,00:07:53,10 mai au 18 juin,RMC,473,radios
+LA REPUBLIQUE EN MARCHE,00:20:47,10 mai au 18 juin,RMC,1247,radios
+LES REPUBLICAINS,00:18:06,10 mai au 18 juin,RMC,1086,radios
+LUTTE OUVRIERE,00:01:08,10 mai au 18 juin,RMC,68,radios
+PARTI SOCIALISTE,00:05:32,10 mai au 18 juin,RMC,332,radios
+PLACE PUBLIQUE,00:01:29,10 mai au 18 juin,RMC,89,radios
+RASSEMBLEMENT NATIONAL,00:15:06,10 mai au 18 juin,RMC,906,radios

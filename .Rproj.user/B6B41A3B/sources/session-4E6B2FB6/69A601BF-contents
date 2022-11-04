@@ -1,0 +1,599 @@
+---
+title: "Initiation à l'analyse de données"
+subtitle: ".big[&#x1F60E;] <br/> Premier traitement de données de questionnaire"
+author: ">Grégoire Le Campion - UMR Passages CNRS"
+date: "2021/11/15 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["custom.css", "hygge"]
+    self_contained: false
+    smart: true
+    nature:
+    autoplay: false
+knit: (function(inputFile, encoding) { rmarkdown::render(inputFile, encoding = encoding, output_file = "index.html") })
+---
+
+```{r setup, echo=FALSE}
+library(knitr)
+
+
+```
+
+class: center, middle, inverse
+
+
+# Nos objectifs
+
+![obectifs](images/indecision.gif)
+
+---
+### Objectifs
+
+.center[**Entrevoir les possibilités de l'analyse de données issuent d'une enquête par questionnaire**]
+
+
+À part ça :
+1. Faire un très bref retour sur les questionnaires
+1. Vous parler du format base de données
+1. Vous enseignez les premiers indicateurs statistiques utiles pour l'exploration des données
+1. Manipuler des outils simples d'analyse de données
+1. (Représenter graphiquement vos données)
+  
+.important[
+En bref, à l'issue du cours vous ne serez pas des experts, mais vous aurez quelque armes pour démarrer l'exploration de vos données !]
+
+---
+
+class: center, middle, inverse
+
+
+# Le questionnaire
+
+![histoire](images/questionnaire.gif)
+
+---
+### Le Questionnaire
+
+Pourquoi fait-on un questionnaire ?
+
+--
+
+1- Souvent d'abord parce que l'on a une problématique l'on souhaite objectiver...
+
+--
+
+2- mais aussi quantifier...
+
+--
+
+3- ou encore lorsque que l'on cherche à valider et à généraliser les résultats
+
+--
+
+En bref un questionnaire est toujours conçus pour nous fournir des réponses qui illustrent une variable (la variables étant une des choses que l'on souhaite étudier).
+
+.full-width.content-box-green[Tout l'enjeu de l'analyse de questionnaire (donc de la stat !) va être d'etudier ces variables, de les croiser, de voir les relations qui les relient.]
+
+---
+class: center, middle, inverse
+
+# Les biais du questionnaire
+
+![pourquoi](images/data.gif)
+
+
+---
+### Attention au biais d'un questionnaire
+
+Dans la construction d'un questionnaire de nombreux biais peuvent se glisser...
+
+Phénomène de désirabilité sociale
+– vote « Le Pen », vote Obama (« effet Bradley »)
+• Effet de succession de questions (« effet de halo » )
+– Poser une question sur Hiroshima, suivie d’une question sur la nécessité de
+développer l’énergie nucléaire....
+ou
+– Poser une question sur l’influence de la circulation automobile sur l’effet de
+serre, puis sur la nécessité de développer l’énergie nucléaire....
+• « Quel Etat présente le plus une menace pour la paix dans le monde »... ?
+– en sous-main, on force le répondant à accepter l’idée que l’existence d’un état
+présente en soit en menace)
+• Lien entre opinion et action
+– "Un sondage sur les intentions de vote n'a aucun sens si l'on n'a pas une idée du
+taux de mobilisation, c'est-à-dire du pourcentage de gens qui sont sûrs d'aller
+voter, et du taux de certitude, c'est-à-dire du pourcentage de ceux qui sont sûrs
+d'avoir arrêté leur choix"
+
+---
+
+class: center, middle, inverse
+
+# Les différentes données du questionnaire
+
+![pourquoi](images/data.gif)
+
+---
+### Ce que peut récolter un questionnaire.
+
+
+.small[- items ouverts]
+> .small[Ce sont souvent les réponses les plus riches, les plus nuancées. Permettent plutôt d'identifier les comment ? et pourquoi ? Mais c'est aussi les plus difficile à coder et donc à traiter]
+
+.small[- item semi-ouverts (question avec modalités fixées sauf une)]
+> .small[Quand on ne peut pas prévoir toutes les réponses, mais seulement les plus fréquentes et que l'on a l'option autre, précisez...]
+
+.small[- items fermés]
+> .small[Très adaptées aux traitements statistiques, ne permettent pas de recueillir des réponses très nuancées. Permettent plutôt d'identifier les qui ? quoi ? où ? quand ? et combien ?]
+
+.important[
+.small[Ainsi le questionnaire offre un grand nombre de possibilités mais à **questions différentes, données différentes et analyses différentes**.]]
+
+---
+### Les variables quantitatives
+
+Une variable quantitative permet de mesurer une **grandeur, une quantité**.
+
+Elle va avoir une forme numérique, et on va pouvoir calculer une somme, une différence, une moyenne...
+
+Une variable quantitative peut elle même appartenir à deux catégories différentes:
+
+--
+* **discrète** : elle correspond alors à un nombre fini de valeurs possibles. Exemple : un nombre de logements, d'enfants, un âge...
+
+--
+* **continue** : correspond à priori, toutes les valeurs possibles. Exemple : une taille, une surface, un salaire, ...
+
+---
+### Les variables qualitatives
+
+Une variable qualitative indique des **caractéristiques qui ne sont pas des quantités**. Les différentes valeurs que peut prendre cette variable sont appelées les **catégories** ou **modalités**. Elle peut être :
+
+--
+* **ordonnée** : elle va exprimer un ordre. Exemple : “un peu - beaucoup - passionément”
+* **non ordonnée** : elle va exprimer l'appartenance à différents groupe Exemple : une couleur, un groupe sanguin…
+
+--
+
+Une variable qualitative ne permet pas de faire des calculs.
+> .small[La moyenne d’un groupe sanguin n’a aucun sens.]
+
+En revanche, on pourra faire des tableaux de fréquence.
+> .small[Combien de personnes sont A+, B-...]
+
+
+---
+### Les variables textuelles
+
+Les variables textuelles sont intéressante car permettent de développer plus fortement les réponses des individus... mais plus compliqué à traiter.
+
+Peut importe leur importance il faudra partir sur de l'analyse lexicale ou lexicométrique.
+> Les analyses lexicométrique peuvent s'avérer très riches et très complexes
+
+---
+class: center, middle, inverse
+# Au commencement de la statistique...La donnée
+
+
+![origine](images/origine.gif)
+
+---
+### Statistique et données
+
+.full-width.content-box-yellow[Le but de la statistique est donc d'analyser des phénomènes observés. La statistique c'est l'étude quantifié de la variation.]
+
+--
+
+Le premier enjeu de la statistique c'est l'observation du ou des phénomènes que l'on souhaite analyser et comprendre. **Car tout est quantifiable !**
+> C'est l'étape de **l'investigation**, de la recherche qui passe par **les enquêtes, les questionnaires, l'observation, les recensements**. Et oui un des objectif du questionnaire est bien de quantifier une information.
+
+--
+
+Mais pour fonctionner les observations doivent avoir une forme qui les rends interpretable, analysable et rend possible l'usage de la statistique.
+> C'est la création de la **base de données**.
+
+.important[
+.small[Le produit final du questionnaire est la base de données qui met en forme tous les types de données récoltés et donc prêtes pour les différents types d'analyse.]]
+
+---
+### Quelle forme pour nos données ?
+
+A quoi ressemble une jolie base de donnnée ?
+
+--
+
+.center[
+```{r echo=FALSE, out.width="60%"}
+knitr::include_graphics("images/tidy-data.png")
+```
+
+]
+
+.center[
+.small[**Chaque colonne est une variable c'est à dire une caractéristique de nos données.**
+
+**Chaque ligne est une observation, un individu.**
+
+**Chaque cellule (case) une mesure unique.**]
+]
+
+
+---
+### Quel intérêt ? I
+
+1- Mieux se représenter ces données.
+
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("images/forme01.jpg")
+```
+
+.footnote[CC By Julie Lowndes & Allison Horst]
+---
+### Quel intérêt ? II
+
+2- Pouvoir utiliser des outils et méthodes adaptés, favoriser la comparaison.
+
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("images/forme02.jpg")
+```
+
+.footnote[CC By Julie Lowndes & Allison Horst]
+---
+### Quel intérêt ? III
+
+3- Faciliter la collaboration avec d'autres personnes.
+
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("images/forme03.jpg")
+```
+
+.footnote[CC By Julie Lowndes & Allison Horst]
+---
+
+### Quel intérêt ? IV
+
+4- Pouvoir réaliser efficacement toutes les étapes de l'analyse de la donnée, c'est à dire de faire une chaîne de traitement.
+
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("images/forme04.jpg")
+```
+
+.footnote[CC By Julie Lowndes & Allison Horst]
+
+---
+class: center, middle, inverse
+
+
+# L'analyse statistique de données
+
+![pourquoi](images/pourquoi.gif)
+
+---
+### Que permet l'analyse de données ?
+
+.small[Petit rappel : La statistique c'est un ensemble d'outils dont le but est de nous permettre de **décrire et d'analyser des phénomènes observés** qui sont de même nature.]
+> .small[Ces phénomènes peuvent être sociaux, biologiques, physiques, écologiques, politiques...]
+
+Elle permet entre autre :
+
+--
+.small[* De créer une information systématique qui permet donc la comparaison.]
+--
+.small[* De traiter et analyser l'information : étudier le lien entre les observations, la cause...]
+--
+.small[*  De résumer et représenter l'information : faire des tableaux croisés, des graphiques...]
+--
+.small[* De vérifier la fiabilité de l'information : notamment en cas de sondage.]
+--
+.small[* De permettre le premier pas de la réutilisation de l'information dans le but d'une application.]
+
+--
+.important[.small[
+L'intérêt de l'enquête par questionnaire c'est qu'elle va nous fournir des infos pour étudier ces différents points et donc répondre à nos hypotèses.]]
+
+
+---
+### Que permet l'analyse de données ? II
+
+.small[Pour simplifier on peut distinguer deux grandes branches en statistiques :]
+
+--
+
+1- **La statistique descriptive** : qui décrit l'information de manière compréhensible et utilisable.
+
+--
+
+2- **La statistique inférentielle** : qui regroupe l'ensemble des méthodes qui ont pour objectif d'induire des caractéristiques d'un groupe général à partir d'un échantillon de ce groupe.
+
+--
+
+.full-width.content-box-green[.small[Au vue de la richesse et de l'hétérogénéité de ce que rapporter en terme de reponses un questionnaire on va donc avoir la chance de pouvoir se balader le long de ses 2 branches en fonction de la forme des données récoltées.]]
+
+
+---
+class: center, middle, inverse
+
+# Come get some statistic !
+
+![comegetsome](images/comegetsome.gif)
+
+#(with Jamovi)
+---
+
+### 1 er étape de l'analyse de données
+
+.small[La 1er étape de l'analyse va toujours être d'abord de mieux connaitre nos données.
+
+Avant de se lancer à coeur perdu dans le calcul d'indicateurs, la première étape devrait toujours être de simplement regarder et décrire ses données: c'est la statistique descriptive
+
+Il faut a minima se poser ces questions :]
+
+
+--
+
+.small[-De quoi parle exactement ma base de donnée?]
+
+--
+
+.small[-Combien de variables constituent ma base de données ?]
+
+--
+
+.small[-Quel type de variables? Sont-elles quantitatives ou qualitatives ? Discrètes ou continues ? Ordonnées ou non ordonnées ?]
+
+--
+
+.small[-Combien d'observations ?]
+
+--
+
+.small[-Y a t'il des données manquantes ?]
+
+--
+
+.important[.small[
+A ce stade on utilisera tous les indicateurs statistiques tel que la moyenne, la médianne, l'écart type et bien sur aussi la réprésentation graphique qui sera d'une aide très précieuse. Mais aussi le tableau croisé !]]
+
+---
+### Analyse de données et tests statistique
+
+Une fois que nous avons décrit nos variables et que nous connaissons mieux nos données nous pouvons passer aux tests statistiques. On parle aussi de test d'hypothèse.
+
+Le principe de base est en réalité assez simple, il faut :
+
+1- Poser un hypothèse, nommée H0 ou hypothèse nulle
+
+2- Réaliser le test
+
+3- Voir si le resultat du test est significatif, 
+
+4- En fonction de la significativité du test accepter ou refuter notre hypothèse
+
+Des tests il en existe un très grand nombre pour répondre à peu près toutes les questions et hypothèses que l'on peut se poser.
+
+.full-width.content-box-yellow[.small[De notre côté nous nous intéresserons seulement au test de comparaison de moyennes ou de proportions de deux échantillons indépendnats ainsi qu'à l'étude de relation entre variables.]]
+
+---
+### Aparté sur la loi normale
+
+```{r, echo=FALSE, out.width = '50%', fig.align = 'center'}
+library(here)
+knitr::include_graphics(here("images", "loi_normale.png"))
+```
+
+
+.small[Il s'agit de la distribution reine ou, idéale en statistique. C'est sur cette distribution que se base les tests dit paramétriques (Corrélation de Pearson, Régression linéaire, t de Student...).]
+>.small[Ainsi, pour choisir le test que vous devrez réaliser que ce soit dans le cas où vous cherchez à déterminer l'existence de liens entre vos variables ou si vous cherchez à déterminé ou prédire l'influence de certaines variables sur d'autres, la première chose à faire et de vérifier si vos données suivent cette loi normale.]
+
+.full-width.content-box-yellow[.small[La distribution c'est un peu la fiche d'identité de vos données.]]
+---
+### La comparaison de deux échantillons indépendants
+
+La comparaison de moyenne ou de pourçentage entre deux échantillons est simple il s'agit simplement de savoir si deux groupes ont obtenu un score similaire ou différent.
+> Sur le fond cela l'est beaucoup moins car tout est toujours différents : 2 est diffrént de 3, 0.001 de 0.0012, 1000 de 250000
+
+Le problème de la comparaison est de savoir si deux scores au delà de leur différence observé ont une différences que l'on peut considérer comme significatif.
+> Est ce que finalement l'écart que l'on note intuitivement entre deux scores refléte une différence réelle entre deux populations.
+
+.small[Le test de comparaison de moyenne le plus connu est le **t de Student**. Il en existe plusieurs version le test t à 1 échantillon (on compare à un chiffre définit, un standard), le test t apparié (comparé deux groupes liés, permets d'étudier une évolution avant/après) et le test t de deux échantillons indépendants qui nous interesseras ici.]
+
+---
+### Le t de student
+
+.full-width.content-box-yellow[.small[Pour l'anecdocte le t de student a été développé par William Grosset en 1908 qui travaillait chez Guiness à Dublin. Guiness lui a interdit de publier sous son vrai nom, il a alors choisi le pseudo Student]]
+
+Le test t de deux échantillons indépendant permet de comparer la moyenne de deux populations différentes mais quelques conditions indispensable :
+
+1- D'abords pouvoir calculer une moyenne! La variable que l'on étudie est continue
+
+2- Les données sont normalement distribué
+
+3- La variance des deux groupes est homogène c'est à dire égale.
+
+4- On ne compare que deux groupes deux à deux
+
+
+---
+### Le t de student II
+
+Que faire si les conditions ne sont pas respectés ?
+> Pas de panique on pourra utiliser les test non paramétriques qui sont fait pour ce genre de situation (le Wilcoxon ou Mann et Whitney) !
+
+S'il existe plus de deux groupes, inutiles de faire plusieurs comparaison deux à deux on utilisera l'Anova qui a en simplifiant les conditions similaires au t de Student.
+> Si les conditions ne sont pas rempli la encore on peut compter sur son équivalent non paramétrique : le Kruskall-Wallis.
+
+---
+### L'analyse bivariée
+
+Faire une analyse bivariée c'est étudier la relation entre deux variables
+> Sont-elles liées ? les valeurs de l’une influencent-elles les valeurs de l’autre ? ou sont-elles au contraire indépendantes ?
+
+.important[
+À noter qu’on va parler ici d’influence ou de lien, mais pas de relation de cause à effet. Les outils présentés permettent de visualiser ou de déterminer une relation, mais la mise en évidence de liens de causalité proprement dit est nettement plus complexe.]
+
+
+Là encore en fonction de vos variables on partira sur une méthode ou une autre :
+
+- Si on croise deux variables quantitatives : la corrélation
+- Si on croise deux variables qualitatives : le chi²
+
+---
+### La corrélation
+
+.important[
+La corrélation est une quantification de la relation entre des variables.]
+
+Le calcul du coefficient de corrélation repose sur le calcul de la covariance entre les variables. Le coefficient de corrélation est en fait la standardisation de la covariance. Cette standardisation permet d’obtenir une valeur qui variera toujours entre -1 et +1, peu importe l’échelle de mesure des variables mises en relation.
+
+Cette notion de covariance est importante, elle est au cœur du concept de corrélation. Lorsque l’on mesure une corrélation on étudie la variation commune des variables. On peut théoriquement mesurer une corrélation entre n’importe quelle variable.
+
+.center[**http://tylervigen.com/spurious-correlations**]
+
+---
+### La corrélation II
+
+Il existe plusieurs méthodes de calcul pour analyser des corrélations.
+>Le choix d’un coefficient est déterminé par les spécificités des variables étudiées. Un mauvais choix risque de fausser vos résultats et vos interprétations.
+
+Pour faire le bon choix, vous devez prendre en compte :
+
+-Les types de variables (quantitative, qualitative)
+
+-Les types de données (numérique, chaîne de caractère et facteur)
+
+-La forme des distributions des séries statistiques analysées
+
+---
+### La corrélation III
+
+Les coefficients de corrélation les plus connus et utilisés en SHS sont : Le R de Bravais-Pearson / Le Rho de Spearman / Le Tau de Kendall
+
+Si vous cherchez à étudier une relation linéaire entre deux variables quantitatives et continues et qu’au moins l’une des deux suit une distribution normale, on peut réaliser la corrélation de Pearson. Il s’agit du coefficient de référence lorsque l’on parle de corrélation.
+
+En revanche, si vos données ne suivent pas une loi normale on utilisera plutôt le Rho de Spearman ou le Tau de kendall
+
+.full-width.content-box-blue[.small[Dans certaines disciplines (comme par exemple en psychologie) on considère que Spearman s’utilise dans le cas de variables ordinales où la distance “ressentie” entre les classes de nos données qualitatives est la même entre tous les intervalles (par exemple les réponses aux échelles de Likert]]
+
+---
+### Interprétation de la corrélation
+
+Imaginons que nous étudions la corrélation entre e nombre de suicides par strangulation aux Etats-Unis et le niveau d’investissement du gouvernement américain dans la recherche.
+
+Voici une image pour synthétiser :
+
+```{r, echo=FALSE, fig.cap="Interprétation d'une corrélation", out.width = '100%', fig.align = 'center'}
+library(here)
+knitr::include_graphics(here("images", "lecture_correlation.png"))
+```
+
+---
+### Interprétation de la corrélation II
+
+.small[En bref la corrélation peut :]
+
+.small[-**Etre supérieur à 0** : les variables sont associées positivement, plus les investissements dans la recherche augmentent, plus le nombre de suicides par strangulation augmente et inversement]
+
+.small[-**Etre inférieur à 0** : les variables sont associées négativement, plus les investissements dans la recherche augmentent, plus le nombre de suicides par strangulation diminue, et inversement]
+
+.small[-**Etre égale à 0** : il n’y a absolument aucun lien entre les variables, le niveau d’investissement dans la recherche n’a strictement aucune influence sur le nombre de suicides par strangulation, et inversement]
+
+---
+### Interprétation de la corrélation III
+
+.small[Deux informations importantes sont donc à analyser :]
+
+.small[-**Le sens de la relation** : la corrélation est-elle positive ou négative (coefficient supérieur ou inférieur à 0) ?]
+
+.small[-**La force de la relation** : plus la valeur du coefficient est proche de + 1 ou de - 1, plus les deux variables sont associées fortement. Au contraire, plus le coefficient est près de 0, moins les variables partagent de covariance et, donc, moins l’association est forte.]
+
+---
+### Représentation graphique de la corrélation
+
+
+.pull-left[
+Le nuage de point :
+```{r, echo=FALSE, out.width = '80%', fig.align = 'center'}
+library(here)
+knitr::include_graphics(here("images", "repr_corr01.png"))
+```
+
+le corrélogramme :
+```{r, echo=FALSE, out.width = '80%', fig.align = 'center'}
+library(here)
+knitr::include_graphics(here("images", "repr_corr04.png"))
+```
+]
+
+.pull-right[
+L'histogramme :
+```{r, echo=FALSE, out.width = '80%', fig.align = 'center'}
+library(here)
+knitr::include_graphics(here("images", "repr_corr02.png"))
+```
+
+Le réseau:
+```{r, echo=FALSE, out.width = '80%', fig.align = 'center'}
+library(here)
+knitr::include_graphics(here("images", "repr_corr03.png"))
+```
+]
+---
+### Le Chi²
+
+Le chi² est très intéressant car permet d'étudier des variables qualitatives qui sont souvent négligées.
+> C'est d'ailleurs un test qui est lui aussi souvent négligé alors qu'il peut s'avérer très puissant.
+
+.important[
+Le chi² ne sert qu'à une chose : étudier s'il y a indépendance entre les variables que nous analysons.]
+
+>Nous sommes bien d’accord que par indépendance nous entendons ici que l’appartenance à tel modalité de notre 1ere variable n’a pas d’influence sur l’appartenance à tel modalité de notre seconde variable.
+
+
+---
+### Le Chi² II
+
+Pour fonctionner ce test vas se baser sur des tableaux croisés 
+> Le TC est puissant car permer de comparer une distribution réelle (ce que nous avons observé) à une distribution théorique qui corresponnd aux réponses que nous aurions s'iil n'y avait aucun lien entre les variables que nous croisons.
+
+Le chi²  permet de nous indiquer si la répartition de nos effectifs dans les cellules de notre tableau est sifnificativement différente de la répartition des effectifs théoriques que nous étudions.
+> Si l'écart entre réel et théorique est faible alors il y a de fortes chances qu'il n'y ait pas de liens.
+
+
+.full-width.content-box-purple[.small[En passant sur les détails le chi² va donc chercher à comparer des effectifs théoriques aux effectifs observés. Ce qui va nous permettre d'identifier des endroits où on a plus ou moins d'observation que l'on devrait théoriquement avoir si nos deux variables n'avait strictement aucun lien : on parle des résidus.]]
+
+---
+### Représentations graphiques du Chi²
+
+.pull-left[
+Le mosaic plot classique :
+```{r, echo=FALSE, out.width = '80%', fig.align = 'center'}
+library(here)
+knitr::include_graphics(here("images", "chi2_repr01.png"))
+```
+
+Le balloon plot classique :
+```{r, echo=FALSE, out.width = '80%', fig.align = 'center'}
+library(here)
+knitr::include_graphics(here("images", "chi2_repr02.png"))
+```
+]
+
+.pull-right[
+Le mosaic plot upgrade :
+```{r, echo=FALSE, out.width = '80%', fig.align = 'center'}
+library(here)
+knitr::include_graphics(here("images", "chi2_repr04.png"))
+```
+
+Autre version du balloon plot:
+```{r, echo=FALSE, out.width = '80%', fig.align = 'center'}
+library(here)
+knitr::include_graphics(here("images", "chi2_repr03.png"))
+```
+]
+---
+class: center, middle, inverse
+
+# Come get some statistic with Jamovi!
+
+![comegetsome](images/comegetsome.gif)
+

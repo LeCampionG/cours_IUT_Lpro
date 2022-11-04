@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Initiation à l’analyse de données</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Grégoire Le Campion - UMR Passages CNRS" />
+    <script src="index_files/header-attrs-2.14/header-attrs.js"></script>
+    <link href="index_files/remark-css-0.0.1/hygge.css" rel="stylesheet" />
+    <link rel="stylesheet" href="custom.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Initiation à l’analyse de données
+## ⚔ <br/> Premier traitement de données de questionnaires
+### Grégoire Le Campion - UMR Passages CNRS
+### <blockquote>
+<p>2022/10/15 (updated: 2022-11-03)</p>
+</blockquote>
+
+---
+
+
+
+
+class: center, middle, inverse
+
+
+# Nos objectifs
+
+![obectifs](images/indecision.gif)
+
+---
+### Objectifs
+
+.center[**Entrevoir les possibilités de l'analyse de données issuent d'une enquête par questionnaire**]
+
+
+À part ça :
+1. Faire un très bref retour sur les questionnaires
+1. Vous parler du format base de données
+1. Vous enseignez les premiers indicateurs statistiques utiles pour l'exploration des données
+1. Manipuler des outils simples d'analyse de données
+1. (Représenter graphiquement vos données)
+  
+.important[
+En bref, à l'issue du cours vous ne serez pas des experts, mais vous aurez quelque armes pour démarrer l'exploration de vos données !]
+
+---
+
+class: center, middle, inverse
+
+
+# Le questionnaire
+
+![histoire](images/questionnaire.gif)
+
+---
+### Le Questionnaire
+
+Pourquoi fait-on un questionnaire ?
+
+--
+
+1- Souvent d'abord parce que l'on a une problématique l'on souhaite objectiver...
+
+--
+
+2- mais aussi quantifier...
+
+--
+
+3- ou encore lorsque que l'on cherche à valider et à généraliser les résultats
+
+--
+
+En bref un questionnaire est toujours conçus pour nous fournir des réponses qui illustrent une variable (la variables étant une des choses que l'on souhaite étudier).
+
+.full-width.content-box-green[Tout l'enjeu de l'analyse de questionnaire (donc de la stat !) va être d'etudier ces variables, de les croiser, de voir les relations qui les relient.]
+
+
+---
+
+class: center, middle, inverse
+
+
+# Attention aux données récoltées par questionnaire
+
+![pourquoi](images/bullshit.gif)
+
+---
+### Les biais du questionnaire
+
+Le questionnaire est un outil de receuil de données très puissant mais comme toutes les méthodes de recueil de données il peut être soumis à des biais.Et ils sont nombreux...
+
+.full-width.content-box-green[.small[La définition de biais d'après le Larousse est une position oblique, ou peut aussi renvoyer à une déformation, un travers.]]
+
+--
+
+.important[
+Ils sont particulièrement dangereux dans le recueil de données car ils peuvent nous amener à recueillir de l'information mais qui n'est en réalité pas celle souhaitée.]
+
+Quand on construit un questionnaire il faut donc avoir un sorte de hantise permanente du biais tout en acceptant le fait qu'ils sont en réalité quasi inévitable.
+
+---
+### Les biais du questionnaire II
+
+Dans un questionnaire (mais comme avec les autres méthodes) les biais peuvent survenir à toutes les étapes :
+
+--
+
+1- Au niveau du choix de "l'univers" de l'enquête, cad la population visée.
+
+--
+
+2- Au niveau de la construction d'un éventuel échantillon.
+
+--
+
+3- Au niveau de la construction du questionnaire.
+
+--
+
+4- Au niveau de l'administration du questionnaire.
+
+--
+
+5- Au niveau de la réalisation elle même de l'enquête, si l'échantillon interrogé réellement ne correspond pas à ce qui a été définis.
+
+--
+
+6- Au niveau de la codification des réponses.
+
+--
+
+7- Au niveau de l'analyse des réponses.
+
+---
+### Les biais du questionnaire III
+
+Parmi les biais les plus connus on peut citer :
+
+-La désirabilité sociale : vote « Le Pen », vote Obama (« effet Bradley »)
+
+-Effet de succession de questions (« effet de halo » ) : Poser une question sur Hiroshima, suivie d’une question sur la nécessité de développer l’énergie nucléaire
+
+-Effet de sous entendu. Par ex : "Quel Etat présente le plus une menace pour la paix dans le monde ?" Cela oblige le répondant à accepter l’idée que l’existence d’un état présente en soit une menace.
+
+-Lien entre opinion et action. Un sondage sur les intentions de vote n'a aucun sens si l'on n'a pas une idée du taux de mobilisation, c'est-à-dire du pourcentage de gens qui sont sûrs d'aller voter, et du taux de certitude, c'est-à-dire du pourcentage de ceux qui sont sûrs d'avoir arrêté leur choix
+
+.full-width.content-box-yellow[.small[Heureusement quand on a conscience des biais on peut tenter des contres mesures.]]
+
+---
+### Les biais du questionnaire IV
+
+Voici une liste non exhaustive de biais, de leur effet et de la méthode pour les contourner :
+
+.center[
+&lt;img src="images/biais_01.png" width="70%" /&gt;
+]
+
+---
+
+.center[
+&lt;img src="images/biais_02.png" width="100%" /&gt;
+]
+
+
+---
+
+.center[
+&lt;img src="images/biais_03.png" width="100%" /&gt;
+]
+
+---
+
+class: center, middle, inverse
+
+# Mais que récupère un questionnaire au juste ?
+
+![pourquoi](images/data.gif)
+
+---
+### Ce que peut récolter un questionnaire.
+
+
+.small[- items ouverts]
+&gt; .small[Ce sont souvent les réponses les plus riches, les plus nuancées. Permettent plutôt d'identifier les comment ? et pourquoi ? Mais c'est aussi les plus difficile à coder et donc à traiter]
+
+--
+
+.small[- item semi-ouverts (question avec modalités fixées sauf une)]
+&gt; .small[Quand on ne peut pas prévoir toutes les réponses, mais seulement les plus fréquentes et que l'on a l'option autre, précisez...]
+
+--
+
+.small[- items fermés]
+&gt; .small[Très adaptées aux traitements statistiques, ne permettent pas de recueillir des réponses très nuancées. Permettent plutôt d'identifier les qui ? quoi ? où ? quand ? et combien ?]
+
+--
+
+.important[
+.small[Ainsi le questionnaire offre un grand nombre de possibilités mais à **questions différentes, données différentes et analyses différentes**.]]
+
+---
+### Les variables quantitatives
+
+Une variable quantitative permet de mesurer une **grandeur, une quantité**.
+
+Elle va avoir une forme numérique, et on va pouvoir calculer une somme, une différence, une moyenne...
+
+Une variable quantitative peut elle même appartenir à deux catégories différentes:
+
+--
+* **discrète** : elle correspond alors à un nombre fini de valeurs possibles. Exemple : un nombre de logements, d'enfants, un âge...
+
+--
+* **continue** : correspond à priori, toutes les valeurs possibles. Exemple : une taille, une surface, un salaire, ...
+
+---
+### Les variables qualitatives
+
+Une variable qualitative indique des **caractéristiques qui ne sont pas des quantités**. Les différentes valeurs que peut prendre cette variable sont appelées les **catégories** ou **modalités**. Elle peut être :
+
+--
+* **ordonnée** : elle va exprimer un ordre. Exemple : “un peu - beaucoup - passionément”
+* **non ordonnée** : elle va exprimer l'appartenance à différents groupe Exemple : une couleur, un groupe sanguin…
+
+--
+
+Une variable qualitative ne permet pas de faire des calculs.
+&gt; .small[La moyenne d’un groupe sanguin n’a aucun sens.]
+
+En revanche, on pourra faire des tableaux de fréquence.
+&gt; .small[Combien de personnes sont A+, B-...]
+
+
+---
+### Les variables textuelles
+
+Les variables textuelles sont intéressante car permettent de développer plus fortement les réponses des individus... mais plus compliqué à traiter.
+
+Peut importe leur importance il faudra partir sur de l'analyse lexicale ou lexicométrique.
+&gt; Les analyses lexicométrique peuvent s'avérer très riches et très complexes
+
+
+---
+class: center, middle, inverse
+# Au commencement de la statistique...La donnée
+
+
+![origine](images/origine.gif)
+
+---
+### Statistique et données
+
+.full-width.content-box-yellow[Le but de la statistique est donc d'analyser des phénomènes observés. La statistique c'est l'étude quantifié de la variation.]
+
+--
+
+Le premier enjeu de la statistique c'est l'observation du ou des phénomènes que l'on souhaite analyser et comprendre. **Car tout est quantifiable !**
+&gt; C'est l'étape de **l'investigation**, de la recherche qui passe par **les enquêtes, les questionnaires, l'observation, les recensements**. Et oui un des objectif du questionnaire est bien de quantifier une information.
+
+--
+
+Mais pour fonctionner les observations doivent avoir une forme qui les rends interpretable, analysable et rend possible l'usage de la statistique.
+&gt; C'est la création de la **base de données**.
+
+.important[
+.small[Le produit final du questionnaire est la base de données qui met en forme tous les types de données récoltés et donc prêtes pour les différents types d'analyse.]]
+
+---
+### Quelle forme pour nos données ?
+
+A quoi ressemble une jolie base de donnnée ?
+
+--
+
+.center[
+&lt;img src="images/tidy-data.png" width="60%" /&gt;
+
+]
+
+.center[
+.small[**Chaque colonne est une variable c'est à dire une caractéristique de nos données.**
+
+**Chaque ligne est une observation, un individu.**
+
+**Chaque cellule (case) une mesure unique.**]
+]
+
+
+---
+### Quel intérêt ? I
+
+1- Mieux se représenter ces données.
+
+&lt;img src="images/forme01.jpg" width="100%" /&gt;
+
+.footnote[CC By Julie Lowndes &amp; Allison Horst]
+---
+### Quel intérêt ? II
+
+2- Pouvoir utiliser des outils et méthodes adaptés, favoriser la comparaison.
+
+&lt;img src="images/forme02.jpg" width="100%" /&gt;
+
+.footnote[CC By Julie Lowndes &amp; Allison Horst]
+---
+### Quel intérêt ? III
+
+3- Faciliter la collaboration avec d'autres personnes.
+
+&lt;img src="images/forme03.jpg" width="100%" /&gt;
+
+.footnote[CC By Julie Lowndes &amp; Allison Horst]
+---
+
+### Quel intérêt ? IV
+
+4- Pouvoir réaliser efficacement toutes les étapes de l'analyse de la donnée, c'est à dire de faire une chaîne de traitement.
+
+&lt;img src="images/forme04.jpg" width="100%" /&gt;
+
+.footnote[CC By Julie Lowndes &amp; Allison Horst]
+
+
+---
+class: center, middle, inverse
+
+
+# L'analyse statistique de données
+
+![pourquoi](images/pourquoi.gif)
+
+---
+### Que permet l'analyse de données ?
+
+.small[Petit rappel : La statistique c'est un ensemble d'outils dont le but est de nous permettre de **décrire et d'analyser des phénomènes observés** qui sont de même nature.]
+&gt; .small[Ces phénomènes peuvent être sociaux, biologiques, physiques, écologiques, politiques...]
+
+Elle permet entre autre :
+
+--
+.small[* De créer une information systématique qui permet donc la comparaison.]
+--
+.small[* De traiter et analyser l'information : étudier le lien entre les observations, la cause...]
+--
+.small[*  De résumer et représenter l'information : faire des tableaux croisés, des graphiques...]
+--
+.small[* De vérifier la fiabilité de l'information : notamment en cas de sondage.]
+--
+.small[* De permettre le premier pas de la réutilisation de l'information dans le but d'une application.]
+
+--
+.important[.small[
+L'intérêt de l'enquête par questionnaire c'est qu'elle va nous fournir des infos pour étudier ces différents points et donc répondre à nos hypotèses.]]
+
+
+---
+### Que permet l'analyse de données ? II
+
+.small[Pour simplifier on peut distinguer deux grandes branches en statistiques :]
+
+--
+
+1- **La statistique descriptive** : qui décrit l'information de manière compréhensible et utilisable.
+
+--
+
+2- **La statistique inférentielle** : qui regroupe l'ensemble des méthodes qui ont pour objectif d'induire des caractéristiques d'un groupe général à partir d'un échantillon de ce groupe.
+
+--
+
+.full-width.content-box-green[.small[Au vue de la richesse et de l'hétérogénéité de ce que peut rapporter en terme de reponses un questionnaire on va donc avoir la chance de pouvoir se balader le long de ses 2 branches en fonction de la forme des données récoltées.]]
+
+
+---
+class: center, middle, inverse
+
+# Come get some statistic !
+
+![comegetsome](images/comegetsome.gif)
+
+
+---
+
+### 1 er étape de l'analyse de données
+
+.small[La 1er étape de l'analyse va toujours être d'abord de mieux connaitre nos données.
+
+Avant de se lancer à coeur perdu dans le calcul d'indicateurs, la première étape devrait toujours être de simplement regarder et décrire ses données: c'est la statistique descriptive
+
+Il faut a minima se poser ces questions :]
+
+
+--
+
+.small[-De quoi parle exactement ma base de donnée?]
+
+--
+
+.small[-Combien de variables constituent ma base de données ?]
+
+--
+
+.small[-Quel type de variables? Sont-elles quantitatives ou qualitatives ? Discrètes ou continues ? Ordonnées ou non ordonnées ?]
+
+--
+
+.small[-Combien d'observations ?]
+
+--
+
+.small[-Y a t'il des données manquantes ?]
+
+--
+
+.important[.small[
+A ce stade on utilisera tous les indicateurs statistiques tel que la moyenne, la médianne, l'écart type et bien sur aussi la réprésentation graphique qui sera d'une aide très précieuse. Mais aussi le tableau croisé !]]
+
+---
+### Analyse de données et tests statistique
+
+Une fois que nous avons décrit nos variables et que nous connaissons mieux nos données nous pouvons passer aux tests statistiques. On parle aussi de test d'hypothèse.
+
+Le principe de base est en réalité assez simple, il faut :
+
+--
+
+1- Poser un hypothèse, nommée H0 ou hypothèse nulle,
+
+--
+
+2- Réaliser le test,
+
+--
+
+3- Voir si le resultat du test est significatif, 
+
+--
+
+4- En fonction de la significativité du test accepter ou refuter notre hypothèse.
+
+Des tests il en existe un très grand nombre pour répondre à peu près toutes les questions et hypothèses que l'on peut se poser.
+
+.full-width.content-box-yellow[.small[De notre côté nous nous intéresserons seulement au test de comparaison de moyennes ou de proportions de deux échantillons indépendnats ainsi qu'à l'étude de relation entre variables.]]
+
+---
+### La comparaison de deux échantillons indépendants
+
+La comparaison de moyenne ou de pourçentage entre deux échantillons est simple il s'agit simplement de savoir si deux groupes ont obtenu un score similaire ou différent.
+
+--
+
+&gt; Sur le fond cela l'est beaucoup moins car tout est toujours différents : 2 est différent de 3, 0.001 de 0.0012, 1000 de 250000
+
+--
+
+Le problème de la comparaison est de savoir si deux scores au delà de leurs différences observées ont une différence que l'on peut considérer comme significative.
+
+.important[
+.small[Est ce que finalement l'écart que l'on note intuitivement entre deux scores refléte une différence réelle entre deux populations.]]
+
+
+---
+### Le t de student
+
+.small[Le test de comparaison de moyenne le plus connu est le **t de Student**. Il en existe plusieurs version le test t à 1 échantillon (on compare à un chiffre définit, un standard), le test t apparié (comparé deux groupes liés, permets d'étudier une évolution avant/après) et le test t de deux échantillons indépendants qui nous interesseras ici.]
+
+.full-width.content-box-yellow[.small[Pour l'anecdocte le t de student a été développé par William Grosset en 1908 qui travaillait chez Guiness à Dublin. Guiness lui a interdit de publier sous son vrai nom, il a alors choisi le pseudo Student]]
+
+.small[Le test t de deux échantillons indépendant permet de comparer la moyenne de deux populations différentes mais quelques conditions indispensable :]
+
+1- D'abords pouvoir calculer une moyenne! La variable que l'on étudie est continue
+
+2- Les données sont normalement distribué
+
+3- La variance des deux groupes est homogène c'est à dire égale.
+
+4- On ne compare que deux groupes deux à deux
+
+
+---
+### Le t de student II
+
+Que faire si les conditions ne sont pas respectés ?
+&gt; Pas de panique on pourra utiliser les test non paramétriques qui sont fait pour ce genre de situation (le Wilcoxon ou Mann et Whitney) !
+
+S'il existe plus de deux groupes, inutiles de faire plusieurs comparaison deux à deux on utilisera l'Anova qui a en simplifiant les conditions similaires au t de Student.
+&gt; Si les conditions ne sont pas rempli la encore on peut compter sur son équivalent non paramétrique : le Kruskall-Wallis.
+
+---
+### L'analyse bivariée
+
+Faire une analyse bivariée c'est étudier la relation entre deux variables
+&gt; Sont-elles liées ? les valeurs de l’une influencent-elles les valeurs de l’autre ? ou sont-elles au contraire indépendantes ?
+
+--
+
+.important[
+À noter qu’on va parler ici d’influence ou de lien, mais pas de relation de cause à effet. Les outils présentés permettent de visualiser ou de déterminer une relation, mais la mise en évidence de liens de causalité proprement dit est nettement plus complexe.]
+
+
+Là encore en fonction de vos variables on partira sur une méthode ou une autre :
+
+- Si on croise deux variables quantitatives : la corrélation
+- Si on croise deux variables qualitatives : le chi²
+
+---
+### La corrélation
+
+.important[
+La corrélation est une quantification de la relation entre des variables.]
+
+--
+
+.small[Le calcul du coefficient de corrélation repose sur le calcul de la covariance entre les variables. Le coefficient de corrélation est en fait la standardisation de la covariance. Cette standardisation permet d’obtenir une valeur qui variera toujours entre -1 et +1, peu importe l’échelle de mesure des variables mises en relation.]
+
+.small[Lorsque l’on mesure une corrélation on étudie la variation commune des variables. On peut théoriquement mesurer une corrélation entre n’importe quelle variable.]
+
+&lt;img src="images/spurious_corr.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+.footnote[*http://tylervigen.com/spurious-correlations*]
+
+---
+### La corrélation II
+
+Il existe plusieurs méthodes de calcul pour analyser des corrélations.
+&gt;Le choix d’un coefficient est déterminé par les spécificités des variables étudiées. Un mauvais choix risque de fausser vos résultats et vos interprétations.
+
+Pour faire le bon choix, vous devez prendre en compte :
+
+-Les types de variables (quantitative, qualitative)
+
+-Les types de données (numérique, chaîne de caractère et facteur)
+
+-La forme des distributions des séries statistiques analysées
+
+---
+### La corrélation III
+
+Les coefficients de corrélation les plus connus et utilisés en SHS sont : Le R de Bravais-Pearson / Le Rho de Spearman / Le Tau de Kendall
+
+Si vous cherchez à étudier une relation linéaire entre deux variables quantitatives et continues et qu’au moins l’une des deux suit une distribution normale, on peut réaliser la corrélation de Pearson. Il s’agit du coefficient de référence lorsque l’on parle de corrélation.
+
+En revanche, si vos données ne suivent pas une loi normale on utilisera plutôt le Rho de Spearman ou le Tau de kendall
+
+.full-width.content-box-blue[.small[Dans certaines disciplines (comme par exemple en psychologie) on considère que Spearman s’utilise dans le cas de variables ordinales où la distance “ressentie” entre les classes de nos données qualitatives est la même entre tous les intervalles (par exemple les réponses aux échelles de Likert]]
+
+---
+### Interprétation de la corrélation
+
+Imaginons que nous étudions la corrélation entre e nombre de suicides par strangulation aux Etats-Unis et le niveau d’investissement du gouvernement américain dans la recherche.
+
+Voici une image pour synthétiser :
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="images/lecture_correlation.png" alt="Interprétation d'une corrélation" width="100%" /&gt;
+&lt;p class="caption"&gt;Interprétation d'une corrélation&lt;/p&gt;
+&lt;/div&gt;
+
+---
+### Interprétation de la corrélation II
+
+.small[En bref la corrélation peut :]
+
+.small[-**Etre supérieur à 0** : les variables sont associées positivement, plus les investissements dans la recherche augmentent, plus le nombre de suicides par strangulation augmente et inversement]
+
+.small[-**Etre inférieur à 0** : les variables sont associées négativement, plus les investissements dans la recherche augmentent, plus le nombre de suicides par strangulation diminue, et inversement]
+
+.small[-**Etre égale à 0** : il n’y a absolument aucun lien entre les variables, le niveau d’investissement dans la recherche n’a strictement aucune influence sur le nombre de suicides par strangulation, et inversement]
+
+---
+### Interprétation de la corrélation III
+
+.small[Deux informations importantes sont donc à analyser :]
+
+.small[-**Le sens de la relation** : la corrélation est-elle positive ou négative (coefficient supérieur ou inférieur à 0) ?]
+
+.small[-**La force de la relation** : plus la valeur du coefficient est proche de + 1 ou de - 1, plus les deux variables sont associées fortement. Au contraire, plus le coefficient est près de 0, moins les variables partagent de covariance et, donc, moins l’association est forte.]
+
+---
+### Représentation graphique de la corrélation
+
+
+.pull-left[
+Le nuage de point :
+&lt;img src="images/repr_corr01.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+le corrélogramme :
+&lt;img src="images/repr_corr04.png" width="80%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+L'histogramme :
+&lt;img src="images/repr_corr02.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+Le réseau:
+&lt;img src="images/repr_corr03.png" width="80%" style="display: block; margin: auto;" /&gt;
+]
+---
+### Le Chi²
+
+Le chi² est très intéressant car permet d'étudier des variables qualitatives qui sont souvent négligées.
+&gt; C'est d'ailleurs un test qui est lui aussi souvent négligé alors qu'il peut s'avérer très puissant.
+
+--
+
+.important[
+Le chi² ne sert qu'à une chose : étudier s'il y a indépendance entre les variables que nous analysons.]
+
+Nous sommes bien d’accord que par indépendance nous entendons ici que l’appartenance à tel modalité de notre 1ere variable n’a pas d’influence sur l’appartenance à tel modalité de notre seconde variable.
+
+
+---
+### Le Chi² II
+
+Pour fonctionner ce test vas se baser sur des tableaux croisés 
+&gt; Le TC est puissant car permer de comparer une distribution réelle (ce que nous avons observé) à une distribution théorique qui corresponnd aux réponses que nous aurions s'iil n'y avait aucun lien entre les variables que nous croisons.
+
+Le chi²  permet de nous indiquer si la répartition de nos effectifs dans les cellules de notre tableau est sifnificativement différente de la répartition des effectifs théoriques que nous étudions.
+&gt; Si l'écart entre réel et théorique est faible alors il y a de fortes chances qu'il n'y ait pas de liens.
+
+
+.full-width.content-box-purple[.small[En passant sur les détails le chi² va donc chercher à comparer des effectifs théoriques aux effectifs observés. Ce qui va nous permettre d'identifier des endroits où on a plus ou moins d'observation que l'on devrait théoriquement avoir si nos deux variables n'avait strictement aucun lien : on parle des résidus.]]
+
+---
+### Représentations graphiques du Chi²
+
+.pull-left[
+Le mosaic plot classique :
+&lt;img src="images/chi2_repr01.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+Le balloon plot classique :
+&lt;img src="images/chi2_repr02.png" width="80%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+Le mosaic plot upgrade :
+&lt;img src="images/chi2_repr04.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+Autre version du balloon plot:
+&lt;img src="images/chi2_repr03.png" width="80%" style="display: block; margin: auto;" /&gt;
+]
+---
+class: center, middle, inverse
+
+# Let's go with Jamovi!
+
+![comegetsome](images/train.gif)
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create();
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
